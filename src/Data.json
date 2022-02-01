@@ -1,0 +1,110 @@
+[
+    {
+        "id": "sample-coffe-1",
+        "index": 1,
+        "image": "https://images.pexels.com/photos/6347/coffee-cup-working-happy.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "hot",
+        "country": "country 1",
+        "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    },
+    {
+        "id": "sample-coffe-2",
+        "index": 2,
+        "image": "https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "cold",
+        "country": "country 2",
+        "descript": "coffee number 2 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    },
+    {
+        "id": "sample-coffe-3",
+        "index": 3,
+        "image": "https://images.pexels.com/photos/539432/pexels-photo-539432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "seasonal",
+        "country": "country 3",
+        "descript": "coffee number 3 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    },
+    {
+        "id": "sample-coffe-4",
+        "index": 4,
+        "image": "https://images.pexels.com/photos/1170659/pexels-photo-1170659.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "holiday",
+        "country": "country 4",
+        "descript": "coffee number 4 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    },
+    {
+        "id": "sample-coffe-5",
+        "index": 5,
+        "image": "https://images.pexels.com/photos/977876/pexels-photo-977876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "hot",
+        "country": "country 5",
+        "descript": "coffee number 5 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    },
+    {
+        "id": "sample-coffe-6",
+        "index": 6,
+        "image": "https://images.pexels.com/photos/2074122/pexels-photo-2074122.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "cold",
+        "country": "country 6",
+        "descript": "coffee number 6 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    },
+    {
+        "id": "sample-coffe-7",
+        "index": 7,
+        "image": "https://images.pexels.com/photos/2638019/pexels-photo-2638019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "seasonal",
+        "country": "country 7",
+        "descript": "coffee number 7 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    },
+    {
+        "id": "sample-coffe-8",
+        "index": 8,
+        "image": "https://images.pexels.com/photos/2061/restaurant-beans-coffee-cup.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "holiday",
+        "country": "country 8",
+        "descript": "coffee number 8 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    },
+    {
+        "id": "sample-coffe-9",
+        "index": 9,
+        "image": "https://images.pexels.com/photos/4790062/pexels-photo-4790062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "hot",
+        "country": "country 9",
+        "descript": "coffee number 9 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    },
+    {
+        "id": "sample-coffe-10",
+        "index": 10,
+        "image": "https://images.pexels.com/photos/7937416/pexels-photo-7937416.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "cold",
+        "country": "country 10",
+        "descript": "coffee number 10 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    },
+    {
+        "id": "sample-coffe-11",
+        "index":11,
+        "image": "https://images.pexels.com/photos/4790062/pexels-photo-4790062.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "holiday",
+        "country": "country 11",
+        "descript": "coffee number 11 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    },
+    {
+        "id": "sample-coffe-12",
+        "index": 12,
+        "image": "https://images.pexels.com/photos/5946982/pexels-photo-5946982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "type": "seasonal",
+        "country": "country 12",
+        "descript": "coffee number 12 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+    }
+]

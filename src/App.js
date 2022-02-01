@@ -17,7 +17,7 @@ function App() {
           element={<Home />}
         />
         <Route 
-          path="/flavours/:flavour"
+          path="/type/:flavour"
           element={<Flavours />}
         />
         <Route 
