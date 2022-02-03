@@ -1,6 +1,7 @@
 import React from "react";
 import data from '../Data.json';
 import {Link} from 'react-router-dom'
+import '../Style/App.css'
 import '../Style/Navigation.css'
 
 const Navigation = () => {
@@ -24,12 +25,12 @@ const Navigation = () => {
                 <div className="nav__menu">
                     {typesCoffees.map((type, index)=>{
                       if(type !== undefined){
-                          console.log(type, index)
+                        //   console.log(type, index)
                           return(
                             <Link
                                 to={`type/${type}`}
                                 key={index}
-                                className="type_link"
+                                className="type__link"
                             >
                               {type}
                             </Link>
