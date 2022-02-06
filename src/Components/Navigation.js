@@ -46,8 +46,14 @@ const Navigation = () => {
                     className="burger__menu"
                     onClick={() => setOpenMenu(!openMenu)}
                 >
-                    <AiOutlineMenu />
+                    <AiOutlineMenu 
+                        className={openMenu ? "menu__icon hide" : "menu__icon"}
+                    />
+                    <AiOutlineClose 
+                        className={openMenu ? "menu__icon" : "menu__icon hide"}
+                    />
                 </div>
+
                 <div className={openMenu ? "respon__menu open" : "respon__menu"}>
                     {typesCoffees.map((type, index)=>{
                         if(type !== undefined){

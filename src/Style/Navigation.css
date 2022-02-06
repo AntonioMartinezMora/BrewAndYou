@@ -29,7 +29,14 @@
 
 .burger__menu{
     display: none;
+}
+
+.burger__menu .menu__icon{
     font-size: 2rem;
+}
+
+.burger__menu .menu__icon.hide{
+    display: none;
 }
 
 .respon__menu{
