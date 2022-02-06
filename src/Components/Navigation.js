@@ -1,17 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import data from '../Data.json';
 import {Link} from 'react-router-dom'
 import '../Style/App.css'
 import '../Style/Navigation.css'
+// Import icons
+
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navigation = () => {
+    // Mobile Menu
+    const [openMenu, setOpenMenu] = useState(false)
+
     // Filter and display nav types of coffees
     const typesCoffees = [...new Set(data.map((item)=>{
         if(item.type !== null){
             return item.type 
         }
     }))]
-    console.log(typesCoffees)
 
     return (
         <div className="navigation">
@@ -25,7 +30,6 @@ const Navigation = () => {
                 <div className="nav__menu">
                     {typesCoffees.map((type, index)=>{
                       if(type !== undefined){
-                        //   console.log(type, index)
                           return(
                             <Link
                                 to={`type/${type}`}
@@ -36,6 +40,27 @@ const Navigation = () => {
                             </Link>
                           )
                       }  
+                    })}
+                </div>
+                <div 
+                    className="burger__menu"
+                    onClick={() => setOpenMenu(!openMenu)}
+                >
+                    <AiOutlineMenu />
+                </div>
+                <div className={openMenu ? "respon__menu open" : "respon__menu"}>
+                    {typesCoffees.map((type, index)=>{
+                        if(type !== undefined){
+                            return(
+                                <Link
+                                    to={`type/${type}`}
+                                    key={index}
+                                    className="type__link"
+                                >
+                                {type}
+                                </Link>
+                            )
+                        }  
                     })}
                 </div>
             </nav>

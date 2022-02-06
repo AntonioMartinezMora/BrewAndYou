@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0 2rem;
 }
 
 .nav__bar{
@@ -24,4 +25,46 @@
     margin: 0 1rem;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+.burger__menu{
+    display: none;
+    font-size: 2rem;
+}
+
+.respon__menu{
+    position: absolute;
+    top: 8vh;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 199;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.respon__menu.open{
+    display: flex;
+}
+
+.respon__menu .type__link{
+    margin: 0.5rem;
+    color: black;
+}
+
+@media(max-width:800px){
+    .nav__menu{
+        display: none;
+    }
+
+    .burger__menu{
+        display: flex;
+    }
+
+    /* .respon__menu{
+        display: flex;
+    } */
 }
