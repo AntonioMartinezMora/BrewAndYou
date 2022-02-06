@@ -1,0 +1,30 @@
+[
+    {   
+        "index": 1,
+        "headline": "brew it like it's hot",
+        "quote": "if you are all about hot coffee beverages, explore more here",
+        "img": "https://media.publit.io/file/w_640/MainImages/hot_landing.jpeg",
+        "type": "hot"
+    },
+    {
+        "index": 2,
+        "headline": "ice, ice coffee",
+        "quote": "when you have that cold coffee craving, you might need these coffees",
+        "img": "https://media.publit.io/file/MainImages/cold_landing.jpeg",
+        "type": "cold"
+    },
+    {
+        "index": 3,
+        "headline": "if we took a holiday",
+        "quote": "find out new and exciting holiday coffee drinks",
+        "img": "https://media.publit.io/file/w_1024/MainImages/holiday_landing.jpeg",
+        "type": "holiday"
+    },
+    {
+        "index": 4,
+        "headline": "4 seasons coffee",
+        "quote": "seasons change but coffee ove is all year round. Explore season coffee drinks",
+        "img": "https://media.publit.io/file/w_640/MainImages/seasonal_landing.png",
+        "type": "seasonal"
+    }
+]

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+.discover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover .discover__text{
+    width: 90%;
+    max-width: 530px;
+    text-align: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.discover__container{
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.discovery__link{
+    height: 250px;
+    margin: 2rem;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.discovery__link:hover{
+    background-size: 101%;
+}
+
+.discovery__link::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 200px;
+}
+
+.discovery__link h3{
+    z-index: 99;
+    color: white;
+    font-family: 'Shrikhand', cursive;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.discovery__link p{
+    z-index: 99;
+    color: white;
+    max-width: 60%;
+    text-align: center;
+}
+
+@media(max-width:800px){
+
+    .discover__container{
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .discover__container .discovery__link{
+        max-width: 500px;
+    }
+}
