@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 function Flavours(){
     let { flavour } = useParams()
 
-    return <h2>Flavours</h2>
+    return <h2>this is page is for {flavour} coffees</h2>
 }
 
 export default Flavours;

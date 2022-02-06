@@ -62,6 +62,7 @@ const Navigation = () => {
                                     to={`type/${type}`}
                                     key={index}
                                     className="type__link"
+                                    onClick={()=> setOpenMenu(false)}
                                 >
                                 {type}
                                 </Link>
