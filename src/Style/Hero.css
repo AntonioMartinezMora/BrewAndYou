@@ -35,10 +35,11 @@
     position: relative;
 }
 
-/* .hero__bg img{
-    position: absolute;
-    bottom: 0;
-    left: 10%;
-    height: 90%;
-} */
+@media(max-width:800px){
+    .hero .hero__info{
+        width: 45%;
+        height: 100%;
+        padding: 1rem;
+    }
+}
 
