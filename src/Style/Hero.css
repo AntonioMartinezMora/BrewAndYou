@@ -32,6 +32,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: text;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+
+@keyframes text{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .hero__info h2{
@@ -60,6 +74,7 @@
     color: black;
     border-radius:5px;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 @media(max-width:800px){
@@ -80,6 +95,11 @@
 
     .hero__info h2{
         font-size: 1.5rem;
+        max-width: 95%;
+    }
+
+    .hero__info {
+        max-width: 90%;
     }
 }
 
