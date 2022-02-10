@@ -5,6 +5,9 @@
     justify-content: center;
     align-items: center;
     padding: 0 2rem;
+    position: absolute;
+    z-index: 999;
+    background: transparent;
 }
 
 .nav__bar{
@@ -27,23 +30,34 @@
     text-transform: uppercase;
 }
 
+.nav__bar .type__link--home{
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
 .burger__menu{
     display: none;
 }
 
 .burger__menu .menu__icon{
     font-size: 2rem;
+    color: white;
 }
 
 .burger__menu .menu__icon.hide{
     display: none;
 }
 
+/* Mobile menu */
+
 .respon__menu{
     position: absolute;
     top: 8vh;
     left: 0;
-    height: 100%;
+    height: 61vh;
     width: 100%;
     background-color: white;
     z-index: 199;
