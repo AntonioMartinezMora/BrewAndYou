@@ -16,20 +16,31 @@ function Flavours(){
                         index,
                         image,
                         type,
-                        name
+                        name,
+                        short
                     } = item
-                    return<Link
-                        to={`/coffees/${id}`}
+                    return<div
                         key={index}
                         className="coffee__link"
-                    >
-                        <div className="coffee__link--info">
+                    >   
+                        <Link
+                            to={`/coffees/${id}`}
+                            className="img__link"
+                        >
                             <img src={image}/>
-                            <h4 className="coffee__name">
-                                {name}
-                            </h4>
-                        </div>
-                    </Link>
+                        </Link>
+                        <h3 className="coffee__name">
+                            {name}
+                        </h3>
+                        <p>{short}</p>
+                        <button className="learn__btn">
+                            <Link
+                            to={`/coffees/${id}`}
+                            >
+                                Learn more
+                            </Link>
+                        </button>
+                    </div>
                 }
             })}
         </div>
