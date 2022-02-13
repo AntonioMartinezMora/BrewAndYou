@@ -10,7 +10,7 @@
     width: 90%;
     height: 250px;
     margin: 1rem;
-    background-color: #386CBB;
+    background-color: VAR(--gold);
     border-top-left-radius: 30%;
     border-bottom-right-radius: 20%;
     position: relative;
@@ -33,4 +33,24 @@
     font-size: 1rem;
     text-transform: uppercase;
     color: white;
+}
+
+@media(max-width:800px){
+    .coffees__container{
+        padding-top: 10rem;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(max-width:500px){
+    .coffees__container{
+        padding-top: 10rem;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
