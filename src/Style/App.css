@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    --gold: #F5D9A5;
+}
+
 body{
     font-family: 'Varela', sans-serif;
 }

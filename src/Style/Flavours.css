@@ -1,0 +1,36 @@
+.coffees__container{
+    padding-top: 10rem;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.coffee__link--info{
+    width: 90%;
+    height: 250px;
+    margin: 1rem;
+    background-color: #386CBB;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 20%;
+    position: relative;
+}
+
+.coffee__link img{
+    height: 50px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.coffee__name{
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+}
