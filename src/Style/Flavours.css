@@ -81,4 +81,9 @@
         display: grid;
         grid-template-columns: 1fr;
     }
+
+    .coffee__link{
+        width: 90%;
+        margin: auto;
+    }
 }
