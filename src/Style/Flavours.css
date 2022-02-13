@@ -60,13 +60,19 @@
     }
 }
 
+@media(max-width:1000px){
+    .coffees__container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media(max-width:800px){
     .coffees__container{
         padding: 5rem 1rem 0 1rem;
         max-width: 1200px;
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .coffee__name{
@@ -86,9 +92,4 @@
         display: grid;
         grid-template-columns: 1fr;
     }
-
-    /* .coffee__link{
-        width: 90%;
-        margin: auto;
-    } */
 }
