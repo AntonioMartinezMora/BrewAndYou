@@ -1,9 +1,9 @@
-.coffees__container{
+.list__container{
     padding-top: 5rem;
     max-width: 1200px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     
 }
@@ -35,15 +35,6 @@
     border-top-left-radius: 10px;
 } 
 
-.coffee__name{
-    font-size: 1rem;
-    font-family: 'Shrikhand', cursive;
-    font-weight: 400;
-    color: black;
-    border-bottom: 1px solid var(--gold);
-    width: fit-content;
-    margin-left: 5px;
-}
 
 .coffee__link p{
     color: black;

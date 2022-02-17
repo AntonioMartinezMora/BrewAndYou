@@ -21,7 +21,7 @@ function App() {
           element={<Flavours />}
         />
         <Route 
-          path="/coffees/:coffee"
+          path="/coffees/:id"
           element={<Coffee />}
         />
         <Route 

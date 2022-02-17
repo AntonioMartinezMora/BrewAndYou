@@ -8,7 +8,7 @@ function Flavours(){
     let { flavour } = useParams()
 
     return (
-        <div className="coffees__container">
+        <div className="list__container">
             {data.map((item)=>{
                 if(item.type === flavour){
                     const {
@@ -25,7 +25,7 @@ function Flavours(){
                         to={`/coffees/${id}`}
                     >   
                         <img src={image}/>
-                        <h3 className="coffee__name">
+                        <h3 className="title__text">
                             {name}
                         </h3>
                         <p>{short}</p>
