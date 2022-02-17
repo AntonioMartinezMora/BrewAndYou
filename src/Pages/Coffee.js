@@ -27,10 +27,19 @@ function Coffee(){
                     }
                     return(
                         <div 
-                            className="coffee__info"
+                            className="coffee__page"
                             key={index}
                         >
                             <img src={image}/>
+                            <div className="coffee__info">
+                                <h1>{name}</h1>
+                                <small className="country small__info">
+                                    Country: {country}
+                                </small>
+                                <small className="type small__info">
+                                    Type of coffee: {type}
+                                </small>
+                            </div>
                             <div className="coffee__instructions">
                                 <div className="descript coffee__text">
                                     <h3 className="title__text">
