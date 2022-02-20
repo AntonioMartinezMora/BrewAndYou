@@ -22,7 +22,6 @@
 }
 
 .coffee__info{
-    /* border: solid 1px red; */
     margin-bottom: 1rem;
 }
 
@@ -32,6 +31,7 @@
     margin-right: 0.5rem;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 15px;
+    text-transform: capitalize;
 }
 .coffee__info .type{
     border: solid 1px var(--gold);
@@ -39,6 +39,7 @@
     margin-right: 0.5rem;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 15px;
+    text-transform: capitalize;
 }
 
 .coffee__info h1{
@@ -63,6 +64,44 @@
 
 .coffee__text:nth-of-type(2){
     padding-left: 1rem;
+}
+
+/* COFFEE NEEDS SECTION
+*****************/
+.coffee__needs h2{
+    margin-bottom: 1rem;
+}
+
+.coffee__needs .need__info{
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+.coffee__needs span{
+    text-transform: uppercase;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: fit-content;
+}
+
+.find__btn{
+    border: none;
+    background: var(--gold);
+    padding: 5px 10px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    margin-left: 1rem;
+    text-transform: uppercase;
+}
+
+.find__btn a{
+    color: black;
+}
+
+.find__btn.hide{
+    display: none;
 }
 
 @media(max-width:1200px){

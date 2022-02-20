@@ -8,7 +8,13 @@
         "name": "Coffee 1",
         "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
         "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": null,
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-2",
@@ -19,7 +25,13 @@
         "name": "Coffee 2",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 2 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": null,
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": null
     },
     {
         "id": "sample-coffe-3",
@@ -30,7 +42,13 @@
         "name": "Coffee 3",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 3 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": null,
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-4",
@@ -41,7 +59,13 @@
         "name": "Coffee 4",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 4 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-5",
@@ -52,7 +76,13 @@
         "name": "Coffee 5",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 5 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": null,
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-6",
@@ -63,7 +93,13 @@
         "name": "Coffee 6",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 6 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": null
     },
     {
         "id": "sample-coffe-7",
@@ -74,7 +110,13 @@
         "name": "Coffee 7",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 7 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": null,
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-8",
@@ -85,7 +127,13 @@
         "name": "Coffee 8",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 8 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": null,
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-9",
@@ -96,7 +144,13 @@
         "name": "Coffee 9",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 9 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": null,
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-10",
@@ -107,7 +161,13 @@
         "name": "Coffee 10",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 10 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": null
     },
     {
         "id": "sample-coffe-11",
@@ -118,7 +178,13 @@
         "name": "Coffee 11",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 11 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": null,
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-12",
@@ -129,7 +195,13 @@
         "name": "Coffee 12",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 12 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": null
     },
     {
         "id": "sample-coffe-13",
@@ -140,7 +212,13 @@
         "name": "Coffee 13",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 13 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": null,
+        "btnTwo": null,
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-14",
@@ -151,7 +229,13 @@
         "name": "Coffee 14",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 14 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-15",
@@ -162,7 +246,13 @@
         "name": "Coffee 15",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 15 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": null,
+        "btnThree": null
     },
     {
         "id": "sample-coffe-16",
@@ -173,7 +263,13 @@
         "name": "Coffee 16",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 16 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": null,
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": null
     },
     {
         "id": "sample-coffe-17",
@@ -184,7 +280,13 @@
         "name": "Coffee 7",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 7 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": null,
+        "btnTwo": null,
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-18",
@@ -195,7 +297,13 @@
         "name": "Coffee 18",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 18 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-19",
@@ -206,7 +314,13 @@
         "name": "Coffee 19",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 19 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": null,
+        "btnTwo": "https://www.amazon.ca/",
+        "btnThree": "https://www.amazon.ca/"
     },
     {
         "id": "sample-coffe-20",
@@ -217,6 +331,12 @@
         "name": "Coffee 20 kjsahksajh",
         "short": "lit id rhoncus elementum, tortor sem luctus magna",
         "descript": "coffee number 20 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
-        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim"
+        "recipe": " tortor luctus scelerisque porta, odio ex malesuada erat, quis imperdiet metus magna id enim",
+        "needOne": "coffee pot",
+        "needTwo": "roasted beans",
+        "needThree": "vanilla syrup",
+        "btnOne": "https://www.amazon.ca/",
+        "btnTwo": null,
+        "btnThree": "https://www.amazon.ca/"
     }
 ]
