@@ -61,49 +61,51 @@ function Coffee(){
                                     <p>{recipe}</p> 
                                 </div>
                             </div>
-                            <div className="coffee__needs">
-                                <h2>You will need to make this coffee:</h2>
-                                <div className="need__info">
-                                    <span>
-                                    <AiFillCaretRight />   
-                                    {needOne} 
-                                    </span>
-                                    <button className={btnOne ? "find__btn" : "find__btn hide"}>
-                                        <a 
-                                            href={btnOne}
-                                            target="_blank"
-                                        >
-                                            Find it
-                                        </a>
-                                    </button>
-                                </div>
-                                <div className="need__info">
-                                    <span>
-                                    <AiFillCaretRight />   
-                                    {needTwo} 
-                                    </span>
-                                    <button className={btnTwo ? "find__btn" : "find__btn hide"}>
-                                        <a 
-                                            href={btnTwo}
-                                            target="_blank"
-                                        >
-                                            Find it
-                                        </a>
-                                    </button>
-                                </div>
-                                <div className="need__info">
-                                    <span>
-                                    <AiFillCaretRight />   
-                                    {needThree} 
-                                    </span>
-                                    <button className={btnThree ? "find__btn" : "find__btn hide"}>
-                                        <a 
-                                            href={btnThree}
-                                            target="_blank"
-                                        >
-                                            Find it
-                                        </a>
-                                    </button>
+                            <div className="bottom__page">
+                                <div className="coffee__needs">
+                                    <h2 className="second__headline">You will need to make this coffee:</h2>
+                                    <div className="need__info">
+                                        <span>
+                                        <AiFillCaretRight />   
+                                        {needOne} 
+                                        </span>
+                                        <button className={btnOne ? "find__btn" : "find__btn hide"}>
+                                            <a 
+                                                href={btnOne}
+                                                target="_blank"
+                                            >
+                                                Find it
+                                            </a>
+                                        </button>
+                                    </div>
+                                    <div className="need__info">
+                                        <span>
+                                        <AiFillCaretRight />   
+                                        {needTwo} 
+                                        </span>
+                                        <button className={btnTwo ? "find__btn" : "find__btn hide"}>
+                                            <a 
+                                                href={btnTwo}
+                                                target="_blank"
+                                            >
+                                                Find it
+                                            </a>
+                                        </button>
+                                    </div>
+                                    <div className="need__info">
+                                        <span>
+                                        <AiFillCaretRight />   
+                                        {needThree} 
+                                        </span>
+                                        <button className={btnThree ? "find__btn" : "find__btn hide"}>
+                                            <a 
+                                                href={btnThree}
+                                                target="_blank"
+                                            >
+                                                Find it
+                                            </a>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

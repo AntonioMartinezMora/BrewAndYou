@@ -66,15 +66,23 @@
     padding-left: 1rem;
 }
 
+.bottom__page{
+    /* border-top: 1px solid var(--gold); */
+    padding: 1rem 0;
+    display: flex;
+}
+
 /* COFFEE NEEDS SECTION
 *****************/
-.coffee__needs h2{
-    margin-bottom: 1rem;
+.coffee__needs{
+    background: rgb(242, 241, 241);
+    width: 40%;
+    padding: 1rem;
 }
 
 .coffee__needs .need__info{
     display: flex;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
 }
 
 .coffee__needs span{
@@ -87,7 +95,7 @@
 
 .find__btn{
     border: none;
-    background: var(--gold);
+    background: var(--orange);
     padding: 5px 10px;
     cursor: pointer;
     outline: none;
@@ -97,7 +105,7 @@
 }
 
 .find__btn a{
-    color: black;
+    color: white;
 }
 
 .find__btn.hide{
@@ -111,6 +119,10 @@
 
     .coffee__text{
         width: 100%;
+        padding: 0 1rem;
+    }
+
+    .coffee__needs{
         padding: 0 1rem;
     }
 }
@@ -131,6 +143,14 @@
         border-right: none;
     }
 
+    .bottom__page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coffee__needs{
+        width: 100%;
+    }
 }
 
 
