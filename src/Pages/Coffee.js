@@ -1,13 +1,17 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 // import {FaChevronRight} from "react-icons/ai";
-import { AiFillCaretRight } from "react-icons/ai";
+import NeedsList from '../Components/NeedsList';
+import { AiFillCaretRight, AiOutlineFileDone, AiOutlineDoubleRight } from "react-icons/ai";
 import data from '../Data.json'
 import '../Style/App.css'; 
 import '../Style/Coffee.css'; 
 
 function Coffee(){
     const {id} = useParams()
+    // const shuffledData = data.sort((a, b) => 0.5 - Math.random())
+    // const recommended = shuffledData.slice(0, 2)
+
 
     return (
         <div className="coffee__container">
@@ -62,51 +66,15 @@ function Coffee(){
                                 </div>
                             </div>
                             <div className="bottom__page">
-                                <div className="coffee__needs">
-                                    <h2 className="second__headline">You will need to make this coffee:</h2>
-                                    <div className="need__info">
-                                        <span>
-                                        <AiFillCaretRight />   
-                                        {needOne} 
-                                        </span>
-                                        <button className={btnOne ? "find__btn" : "find__btn hide"}>
-                                            <a 
-                                                href={btnOne}
-                                                target="_blank"
-                                            >
-                                                Find it
-                                            </a>
-                                        </button>
-                                    </div>
-                                    <div className="need__info">
-                                        <span>
-                                        <AiFillCaretRight />   
-                                        {needTwo} 
-                                        </span>
-                                        <button className={btnTwo ? "find__btn" : "find__btn hide"}>
-                                            <a 
-                                                href={btnTwo}
-                                                target="_blank"
-                                            >
-                                                Find it
-                                            </a>
-                                        </button>
-                                    </div>
-                                    <div className="need__info">
-                                        <span>
-                                        <AiFillCaretRight />   
-                                        {needThree} 
-                                        </span>
-                                        <button className={btnThree ? "find__btn" : "find__btn hide"}>
-                                            <a 
-                                                href={btnThree}
-                                                target="_blank"
-                                            >
-                                                Find it
-                                            </a>
-                                        </button>
-                                    </div>
-                                </div>
+                            <NeedsList 
+                                needOne={needOne}
+                                needTwo={needTwo}
+                                needThree={needThree}
+                                btnOne={btnOne}
+                                btnTwo={btnTwo}
+                                btnThree={btnThree}
+                            />
+                                
                             </div>
                         </div>
                     )

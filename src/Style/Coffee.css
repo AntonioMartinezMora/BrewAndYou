@@ -67,49 +67,8 @@
 }
 
 .bottom__page{
-    /* border-top: 1px solid var(--gold); */
-    padding: 1rem 0;
-    display: flex;
-}
-
-/* COFFEE NEEDS SECTION
-*****************/
-.coffee__needs{
-    background: rgb(242, 241, 241);
-    width: 40%;
-    padding: 1rem;
-}
-
-.coffee__needs .need__info{
-    display: flex;
-    margin: 1rem 0;
-}
-
-.coffee__needs span{
-    text-transform: uppercase;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    width: fit-content;
-}
-
-.find__btn{
-    border: none;
-    background: var(--orange);
-    padding: 5px 10px;
-    cursor: pointer;
-    outline: none;
-    border-radius: 5px;
-    margin-left: 1rem;
-    text-transform: uppercase;
-}
-
-.find__btn a{
-    color: white;
-}
-
-.find__btn.hide{
-    display: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 @media(max-width:1200px){

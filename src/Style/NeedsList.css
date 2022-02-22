@@ -1,0 +1,69 @@
+.list__container{
+    width: 100%;
+    background: rgb(247, 247, 247);
+    height: 150px;
+    position: relative;
+}
+
+.list__container .list__card--icon{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background: var(--orange);
+    font-size: 4rem;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.list__container h2{
+    width: fit-content;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #729575;
+    border-bottom: solid 2px #729575;
+}
+
+.list__content{
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+}
+
+.list__item{
+    display: flex;
+    margin: 0.5rem 0;
+}
+
+.list__item span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    text-transform: capitalize;
+    margin-right: 1rem;
+}
+
+.list__item .find__btn{
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: none;
+    padding: none;
+}
+
+.find__btn.hide{
+    display: none;
+}
+
+.find__btn a{
+    color: var(--orange);
+}
+
+.find__btn .btn__icon{
+    margin: 0 0 0 3px;
+}
+
