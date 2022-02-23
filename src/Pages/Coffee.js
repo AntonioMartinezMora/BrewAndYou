@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 // import {FaChevronRight} from "react-icons/ai";
 import NeedsList from '../Components/NeedsList';
+import ShareSocial from '../Components/ShareSocial';
 import { AiFillCaretRight, AiOutlineFileDone, AiOutlineDoubleRight } from "react-icons/ai";
 import data from '../Data.json'
 import '../Style/App.css'; 
@@ -74,7 +75,7 @@ function Coffee(){
                                 btnTwo={btnTwo}
                                 btnThree={btnThree}
                             />
-                                
+                            <ShareSocial name={name}/>
                             </div>
                         </div>
                     )
