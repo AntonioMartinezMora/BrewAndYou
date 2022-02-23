@@ -8,7 +8,7 @@ const  ShareSocial = props =>{
     return <div className="share__container">
         <TwitterShareButton
             url={window.location.href}
-            title={"I've just discovered`{props.name}`"}
+            title={`I've just discovered${props.name}`}
             hashtag="#coffee"
         >
             <TwitterIcon 
