@@ -16,8 +16,15 @@ const  ShareSocial = props =>{
                 URL = twitterApi
             )}}
         >
-            
             <AiOutlineTwitter />
+        </button>
+        <button className="social__btn">
+            <a 
+                href={twitterApi}
+                target="_blank"
+            >
+                <AiOutlineTwitter />
+            </a>
         </button>
     </div>
 }
