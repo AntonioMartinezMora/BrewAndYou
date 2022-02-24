@@ -1,20 +1,24 @@
 import React from "react";
-import { TwitterShareButton }from "react-share";
-import {TwitterIcon} from "react-share";
+import { AiOutlineTwitter } from "react-icons/ai";
 import '../Style/App.css'; 
 import '../Style/ShareSocial.css'; 
 
 const  ShareSocial = props =>{
+    const pageUrl = window.location.href
+    const message = 'Just discovered this coffee on BrewedAndYou!'
+
+    const twitterApi = `https://twitter.com/intent/tweet?text=${message} ${pageUrl}. `
+
     return <div className="share__container">
-        <TwitterShareButton
-            url={window.location.href}
-            title={`I've just discovered${props.name}`}
-            hashtag="#coffee"
+        <button
+            className="social__btn"
+            onClick={() => {window.open(
+                URL = twitterApi
+            )}}
         >
-            <TwitterIcon 
-                className="twitter__icon"
-            ></TwitterIcon>
-        </TwitterShareButton>
+            
+            <AiOutlineTwitter />
+        </button>
     </div>
 }
 
