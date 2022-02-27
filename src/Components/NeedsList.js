@@ -23,7 +23,6 @@ const  NeedsList = props =>{
                             target="_blank"
                         >
                         Find it
-                        <AiOutlineDoubleRight className="btn__icon"/>
                         </a>
                     </button>
                 </div>
@@ -38,7 +37,6 @@ const  NeedsList = props =>{
                             target="_blank"
                         >
                         Find it
-                        <AiOutlineDoubleRight className="btn__icon"/>
                         </a>
                     </button>
                 </div>
@@ -53,7 +51,6 @@ const  NeedsList = props =>{
                             target="_blank"
                         >
                         Find it
-                        <AiOutlineDoubleRight className="btn__icon"/>
                         </a>
                     </button>
                 </div>

@@ -69,12 +69,16 @@
 .hero__info button{
     margin-top: 1rem;
     border: none;
-    background-color:#F5D9A5;
+    background-color:var(--light-blue);
     padding: 10px 16px;
     color: black;
     border-radius:5px;
     cursor: pointer;
     text-transform: uppercase;
+}
+
+.hero__info button:hover{
+    background-color: var(--blue);
 }
 
 @media(max-width:800px){

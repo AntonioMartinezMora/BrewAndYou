@@ -1,31 +1,50 @@
 import React from "react";
-import { AiOutlineTwitter } from "react-icons/ai";
+import { AiOutlineTwitter, AiOutlineFileDone } from "react-icons/ai";
+import { MdOutlineMobileScreenShare } from "react-icons/md";
+import { FaFacebookF } from "react-icons/fa";
+import { FaLink } from "react-icons/fa";
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 import '../Style/App.css'; 
 import '../Style/ShareSocial.css'; 
 
 const  ShareSocial = props =>{
     const pageUrl = window.location.href
-    const message = 'Just discovered this coffee on BrewedAndYou!'
+    const message = `Just discovered ${props.name} on BrewedAndYou!`
 
-    const twitterApi = `https://twitter.com/intent/tweet?text=${message} ${pageUrl}. `
+    const twitterApi = `https://twitter.com/intent/tweet?text=${message} #coffee
+    ${pageUrl}. `
+    const facebookApi = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`
+
 
     return <div className="share__container">
-        <button
-            className="social__btn"
-            onClick={() => {window.open(
-                URL = twitterApi
-            )}}
-        >
-            <AiOutlineTwitter />
-        </button>
+        <h4>Share {props.name}</h4>
+        <div className="social__btns--container">
         <button className="social__btn">
             <a 
                 href={twitterApi}
                 target="_blank"
+                className="share__card"
             >
                 <AiOutlineTwitter />
             </a>
         </button>
+        <button className="social__btn">
+            <a 
+                href={facebookApi}
+                target="_blank"
+            >
+                <FaFacebookF />
+            </a>
+        </button>
+        <CopyToClipboard
+            text={pageUrl}
+        >
+        <button className="social__btn copy__btn">
+            <FaLink />
+        </button>
+        </CopyToClipboard>
+        </div>
+        
     </div>
 }
 

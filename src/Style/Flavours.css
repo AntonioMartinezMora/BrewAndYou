@@ -1,11 +1,12 @@
-.list__container{
-    padding-top: 5rem;
+.list__coffees{
+    width: 100%;
     max-width: 1200px;
     margin: auto;
+    height: 100vh;
+    padding-top: 8vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
-    
 }
 
 .coffee__link{
@@ -13,6 +14,7 @@
     height: 300px;
     position: relative;
     background-color: rgb(245, 245, 245);
+    /* background-color: var(--light-blue); */
     border-top-left-radius: 10px;
     border-bottom-right-radius: 15px;
 }
@@ -38,7 +40,7 @@
 
 
 .coffee__link p{
-    color: black;
+    color: var(--dark);
     font-size: 0.9rem;
     font-weight: 300;
     margin: 0.4rem 0;
@@ -53,13 +55,13 @@
 }
 
 @media(max-width:1200px){
-    .list__container{
+    .list__coffees{
         padding: 5rem 1rem 0 1rem;
     }
 }
 
 @media(max-width:800px){
-    .list__container{
+    .list__coffees{
         padding: 5rem 1rem 0 1rem;
         max-width: 1200px;
         margin: auto;
@@ -77,7 +79,7 @@
 }
 
 @media(max-width:500px){
-    .list__container{
+    .list__coffees{
         padding: 5rem 1rem 0 1rem;
         max-width: 1200px;
         margin: auto;

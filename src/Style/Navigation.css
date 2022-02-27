@@ -24,7 +24,7 @@
 
 .nav__bar .type__link{
     text-decoration: none;
-    color: black;
+    color: var(--dark);
     margin: 0 0 0 2rem;
     cursor: pointer;
     text-transform: uppercase;
@@ -44,7 +44,7 @@
 
 .burger__menu .menu__icon{
     font-size: 2rem;
-    color: var(--gold);
+    color: var(--yellow);
 }
 
 .burger__menu .menu__icon.hide{

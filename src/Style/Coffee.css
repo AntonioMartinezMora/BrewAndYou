@@ -12,6 +12,11 @@
     margin-bottom: 1rem;
 }
 
+.coffee__info .coffee__name{
+    color: var(--dark);
+    font-size: 2rem;
+}
+
 .coffee__page .coffee__instructions{
     display: flex;
 }
@@ -26,7 +31,8 @@
 }
 
 .coffee__info .country{
-    background: var(--gold);
+    background: var(--light-blue);
+    color: var(--dark);
     padding: 5px 10px;
     margin-right: 0.5rem;
     border-top-left-radius: 5px;
@@ -34,82 +40,37 @@
     text-transform: capitalize;
 }
 .coffee__info .type{
-    border: solid 1px var(--gold);
+    border: solid 1px var(--light-blue);
+    color: var(--dark);
     padding: 5px 10px;
     margin-right: 0.5rem;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 15px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .coffee__info h1{
     font-size: 3rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 1rem;
 }
 
-.coffee__instructions .title__text{
-    margin-left: 0;
-}
-
-.coffee__text p{
-    letter-spacing: 1px;
-    margin-top: 0.5rem;
-}
-
-.coffee__text:first-of-type{
-    border-right: 1px solid var(--gold);
-    padding-right: 1rem;
-}
-
-.coffee__text:nth-of-type(2){
-    padding-left: 1rem;
-}
-
-.bottom__page{
+/* COFFEE INFORMATION */
+.page__container{
+    width: 100%;
+    max-width: 1200px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-@media(max-width:1200px){
-    .coffee__info{
-        padding: 0 1rem;
-    }
-
-    .coffee__text{
-        width: 100%;
-        padding: 0 1rem;
-    }
-
-    .coffee__needs{
-        padding: 0 1rem;
-    }
+    grid-template-columns: 66% 34%;
 }
 
 @media(max-width:800px){
-    .coffee__text p{
-        margin-top: 1rem;
+    .coffee__info,
+    .page__container{
+        padding:1rem;
+    }
+
+    .page__container{
+        display: grid;
+        grid-template-columns:1fr;
     }
 }
-
-@media(max-width:500px){
-    .coffee__page .coffee__instructions{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .coffee__text:first-of-type{
-        border-right: none;
-    }
-
-    .bottom__page{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .coffee__needs{
-        width: 100%;
-    }
-}
-
-

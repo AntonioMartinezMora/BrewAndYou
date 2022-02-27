@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 // import {FaChevronRight} from "react-icons/ai";
+import CoffeeInfo from "../Components/CoffeeInfo";
 import NeedsList from '../Components/NeedsList';
 import ShareSocial from '../Components/ShareSocial';
 import { AiFillCaretRight, AiOutlineFileDone, AiOutlineDoubleRight } from "react-icons/ai";
@@ -44,38 +45,37 @@ function Coffee(){
                         >
                             <img src={image}/>
                             <div className="coffee__info">
-                                <h1>{name}</h1>
+                                <h1 className="coffee__name">{name}</h1>
                                 <small className="country small__info">
-                                    Country: {country}
+                                    {country}
                                 </small>
                                 <small className="type small__info">
-                                    Type of coffee: {type}
+                                    {type} coffee
                                 </small>
                             </div>
-                            <div className="coffee__instructions">
-                                <div className="descript coffee__text">
-                                    <h3 className="title__text">
-                                        description
-                                    </h3>
-                                    <p>{descript}</p> 
+                            <div className="page__container">   
+                                <div className="main__body">
+                                <CoffeeInfo 
+                                    descript={descript}
+                                    recipe={recipe}
+                                />
+                                <ShareSocial 
+                                    name={name}
+                                />
                                 </div>
-                                <div className="recipe coffee__text">
-                                    <h3 className="title__text">
-                                        recipe
-                                    </h3>
-                                    <p>{recipe}</p> 
+                                
+                                <div className="side__bar">
+                                <NeedsList 
+                                    needOne={needOne}
+                                    needTwo={needTwo}
+                                    needThree={needThree}
+                                    btnOne={btnOne}
+                                    btnTwo={btnTwo}
+                                    btnThree={btnThree}
+                                />
+                                
                                 </div>
-                            </div>
-                            <div className="bottom__page">
-                            <NeedsList 
-                                needOne={needOne}
-                                needTwo={needTwo}
-                                needThree={needThree}
-                                btnOne={btnOne}
-                                btnTwo={btnTwo}
-                                btnThree={btnThree}
-                            />
-                            <ShareSocial name={name}/>
+                                
                             </div>
                         </div>
                     )

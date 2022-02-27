@@ -8,7 +8,7 @@ function Flavours(){
     let { flavour } = useParams()
 
     return (
-        <div className="list__container">
+        <div className="list__coffees">
             {data.map((item)=>{
                 if(item.type === flavour){
                     const {
