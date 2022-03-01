@@ -4,16 +4,13 @@ import { Link, useParams } from "react-router-dom";
 import CoffeeInfo from "../Components/CoffeeInfo";
 import NeedsList from '../Components/NeedsList';
 import ShareSocial from '../Components/ShareSocial';
-import { AiFillCaretRight, AiOutlineFileDone, AiOutlineDoubleRight } from "react-icons/ai";
+import Recommended from "../Components/Recommeded";
 import data from '../Data.json'
 import '../Style/App.css'; 
 import '../Style/Coffee.css'; 
 
 function Coffee(){
     const {id} = useParams()
-    // const shuffledData = data.sort((a, b) => 0.5 - Math.random())
-    // const recommended = shuffledData.slice(0, 2)
-
 
     return (
         <div className="coffee__container">
@@ -73,15 +70,16 @@ function Coffee(){
                                     btnTwo={btnTwo}
                                     btnThree={btnThree}
                                 />
-                                
                                 </div>
-                                
                             </div>
+                            
                         </div>
                     )
                 }
             })}
+            <Recommended />
         </div>
+        
     )
 }
 

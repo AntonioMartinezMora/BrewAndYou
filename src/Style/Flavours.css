@@ -9,43 +9,7 @@
     grid-gap: 1rem;
 }
 
-.coffee__link{
-    width: 100%;
-    height: 300px;
-    position: relative;
-    background-color: rgb(245, 245, 245);
-    /* background-color: var(--light-blue); */
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 15px;
-}
 
-.coffee__link img{
-    height: 70%;
-    width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-}
-
-.coffee__link::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 70%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-    border-top-left-radius: 10px;
-} 
-
-
-
-.coffee__link p{
-    color: var(--dark);
-    font-size: 0.9rem;
-    font-weight: 300;
-    margin: 0.4rem 0;
-    margin-left: 5px;
-}
 
 
 @media(max-width:1200px){
