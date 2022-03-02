@@ -3,6 +3,7 @@
     background: var(--grey);
     height: 150px;
     position: relative;
+    margin-bottom: 1rem;
 }
 
 .list__container .list__card--icon{

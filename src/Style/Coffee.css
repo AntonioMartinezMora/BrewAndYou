@@ -49,11 +49,6 @@
     text-transform: uppercase;
 }
 
-.coffee__info h1{
-    font-size: 3rem;
-    text-transform: capitalize;
-    margin-bottom: 1rem;
-}
 
 /* COFFEE INFORMATION */
 .page__container{
@@ -63,12 +58,14 @@
     grid-template-columns: 66% 34%;
 }
 
-@media(max-width:800px){
+@media(max-width:1200px){
     .coffee__info,
     .page__container{
         padding:1rem;
     }
+}
 
+@media(max-width:800px){
     .page__container{
         display: grid;
         grid-template-columns:1fr;

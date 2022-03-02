@@ -29,6 +29,13 @@ a{
     font-size:1.7rem;
 }
 
+.main__headline{
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+    color: var(--dark);
+}
+
 /* Coffee title with underline */
 .title__text{
     font-size: 1rem;

@@ -42,7 +42,7 @@ function Coffee(){
                         >
                             <img src={image}/>
                             <div className="coffee__info">
-                                <h1 className="coffee__name">{name}</h1>
+                                <h1 className="main__headline">{name}</h1>
                                 <small className="country small__info">
                                     {country}
                                 </small>
@@ -71,8 +71,11 @@ function Coffee(){
                                     btnThree={btnThree}
                                 />
                                 </div>
+                                <h1 className="second__headline">
+                                You might also like:
+                            </h1>
                             </div>
-                            
+
                         </div>
                     )
                 }
