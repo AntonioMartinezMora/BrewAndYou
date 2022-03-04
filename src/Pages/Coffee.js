@@ -7,7 +7,6 @@ import ShareSocial from '../Components/ShareSocial';
 import Recommended from "../Components/Recommeded";
 import data from '../Data.json'
 import '../Style/App.css'; 
-import '../Style/Coffee.css'; 
 
 function Coffee(){
     const {id} = useParams()
@@ -50,7 +49,7 @@ function Coffee(){
                                     {type} coffee
                                 </small>
                             </div>
-                            <div className="page__container">   
+                            <div className="coffee__info--container">   
                                 <div className="main__body">
                                 <CoffeeInfo 
                                     descript={descript}

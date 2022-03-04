@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import data from '../Data.json';
 import {Link, Location, useLocation} from 'react-router-dom'
 import '../Style/App.css'
-import '../Style/Navigation.css'
 // Import icons
-
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navigation = () => {
@@ -26,8 +24,8 @@ const Navigation = () => {
                 <Link
                     to="/"
                     className="logo"
+                    onClick={()=> setOpenMenu(false)}
                 >
-                    {/* <img src="https://media.publit.io/file/MainImages/BrewedAndYou_logo.png" alt="brewedandyou" /> */}
                     <img src={location.pathname === '/' ? "https://media.publit.io/file/MainImages/BrewedAndYou_logo-white.png" : "https://media.publit.io/file/MainImages/BrewedAndYou_logo.png"}  />
                 </Link>
                 <div className="nav__menu">
