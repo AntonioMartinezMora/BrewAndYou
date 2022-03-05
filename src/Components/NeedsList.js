@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "react-router-dom";
 import { AiFillCaretRight, AiOutlineFileDone, AiOutlineDoubleRight } from "react-icons/ai";
 import '../Style/App.css'; 
-import '../Style/NeedsList.css'; 
 
 const  NeedsList = props =>{
     return (

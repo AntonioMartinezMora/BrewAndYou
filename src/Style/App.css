@@ -265,6 +265,81 @@ a{
     font-size: 1.2rem;
 }
 
+/* NEEDSLIST Component  -------------------------------
+************************/
+.list__container{
+    width: 100%;
+    background: var(--grey);
+    height: 150px;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.list__container .list__card--icon{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    background: var(--light-blue);
+    font-size: 4rem;
+    color: var(--dark-blue);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.list__container h2{
+    color: var(--dark-blue);
+    width: fit-content;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.list__content{
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+}
+
+.list__item{
+    display: flex;
+    margin: 0.3rem 0;
+    color: var(--dark);
+}
+
+.list__item span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    text-transform: capitalize;
+    margin-right: 1rem;
+}
+
+.list__item .find__btn{
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    margin: none;
+    padding: none;
+}
+
+.find__btn.hide{
+    display: none;
+}
+
+.find__btn a{
+    color: var(--orange);
+    padding: 0 0.2rem;
+    border-bottom: 1px solid var(--orange);
+}
+
+.find__btn .btn__icon{
+    margin: 0 0 0 3px;
+}
+
+
+
 /* FOOTER  ------------------------------------
 ************************/
 footer{
