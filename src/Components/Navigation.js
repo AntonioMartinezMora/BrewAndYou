@@ -33,7 +33,7 @@ const Navigation = () => {
                       if(type !== undefined){
                           return(
                             <Link
-                                to={`type/${type}`}
+                                to={`category/${type}`}
                                 key={index}
                                 className={location.pathname === '/' ? "type__link--home" : "type__link"} 
                             >
@@ -60,7 +60,7 @@ const Navigation = () => {
                         if(type !== undefined){
                             return(
                                 <Link
-                                    to={`type/${type}`}
+                                    to={`category/${type}`}
                                     key={index}
                                     className="type__link"
                                     onClick={()=> setOpenMenu(false)}

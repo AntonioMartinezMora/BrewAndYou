@@ -22,11 +22,11 @@ function App() {
           element={<Home />}
         />
         <Route 
-          path="/type/:flavour"
+          path="/category/:flavour"
           element={<Flavours />}
         />
         <Route 
-          path="/coffees/:id"
+          path="/coffee/:id"
           element={<Coffee />}
         />
         <Route 

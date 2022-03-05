@@ -21,7 +21,7 @@ function Flavours(){
                     return<Link
                         key={index}
                         className="coffee__link"
-                        to={`/coffees/${id}`}
+                        to={`/coffee/${id}`}
                     >   
                         <img src={image}/>
                         <h3 className="title__text">

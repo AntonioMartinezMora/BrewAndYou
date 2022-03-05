@@ -19,7 +19,7 @@ const Discover = () => {
                         type
                     } = discovery
                     return <Link
-                        to={`/type/${type}`}
+                        to={`/category/${type}`}
                         key={index}
                         
                     >
