@@ -3,18 +3,18 @@ import { Link, useParams } from "react-router-dom";
 import data from '../Data.json'
 import '../Style/App.css'; 
 
-function Flavours(){
+function Categories(){
     let { flavour } = useParams()
 
     return (
         <div className="list__coffees">
             {data.map((item)=>{
-                if(item.type === flavour){
+                if(item.category === flavour){
                     const {
                         id,
                         index,
                         image,
-                        type,
+                        category,
                         name,
                         short
                     } = item
@@ -35,4 +35,4 @@ function Flavours(){
     )
 }
 
-export default Flavours;
+export default Categories;

@@ -11,8 +11,8 @@ const Navigation = () => {
 
     // Filter and display nav types of coffees
     const typesCoffees = [...new Set(data.map((item)=>{
-        if(item.type !== null){
-            return item.type 
+        if(item.category !== null){
+            return item.category
         }
     }))]
 
@@ -29,15 +29,15 @@ const Navigation = () => {
                     <img src={location.pathname === '/' ? "https://media.publit.io/file/MainImages/BrewedAndYou_logo-white.png" : "https://media.publit.io/file/MainImages/BrewedAndYou_logo.png"}  />
                 </Link>
                 <div className="nav__menu">
-                    {typesCoffees.map((type, index)=>{
-                      if(type !== undefined){
+                    {typesCoffees.map((category, index)=>{
+                      if(category !== undefined){
                           return(
                             <Link
-                                to={`category/${type}`}
+                                to={`category/${category}`}
                                 key={index}
                                 className={location.pathname === '/' ? "type__link--home" : "type__link"} 
                             >
-                              {type}
+                              {category}
                             </Link>
                           )
                       }  

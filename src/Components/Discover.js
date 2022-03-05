@@ -16,10 +16,10 @@ const Discover = () => {
                         headline,
                         quote,
                         img,
-                        type
+                        category
                     } = discovery
                     return <Link
-                        to={`/category/${type}`}
+                        to={`/category/${category}`}
                         key={index}
                         
                     >

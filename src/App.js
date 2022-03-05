@@ -5,7 +5,7 @@ import Navigation from './Components/Navigation';
 import Footer from './Components/Footer';
 import Home from './Pages/Home'
 // Pages
-import Flavours from './Pages/Flavours';
+import Categories from './Pages/Categories';
 import Coffee from './Pages/Coffee'
 import About from './Pages/About'
 import Terms from './Pages/Terms'
@@ -23,7 +23,7 @@ function App() {
         />
         <Route 
           path="/category/:flavour"
-          element={<Flavours />}
+          element={<Categories />}
         />
         <Route 
           path="/coffee/:id"
