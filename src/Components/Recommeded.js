@@ -5,6 +5,10 @@ import '../Style/App.css';
 import '../Style/Recommended.css'; 
 
 function Recommended(){
+    //scroll page after click link
+    const handleClick = () =>{
+        window.scrollTo(0, 0)
+    }
     // shuffle data
     const shuffleData = data.sort(() => 0.5 - Math.random());
     // pick 3 items from shuffle data
@@ -24,7 +28,8 @@ function Recommended(){
                 return<Link
                         key={index}
                         className="coffee__link"
-                        to={`/coffees/${id}`}
+                        to={`/coffee/${id}`}
+                        onClick={handleClick}
                     >   
                         <img src={image}/>
                         <h3 className="title__text">

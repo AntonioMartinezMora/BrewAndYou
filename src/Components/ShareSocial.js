@@ -8,10 +8,9 @@ import '../Style/App.css';
 
 const  ShareSocial = props =>{
     const pageUrl = window.location.href
-    const message = `Just discovered ${props.name} on BrewedAndYou!`
+    const message = `Just discovered ${props.name} on BrewedAndYou! ${pageUrl}`
 
-    const twitterApi = `https://twitter.com/intent/tweet?text=${message} #coffee
-    ${pageUrl}. `
+    const twitterApi = `https://twitter.com/intent/tweet?text=${message}`
     const facebookApi = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`
 
 

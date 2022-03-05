@@ -5,6 +5,10 @@ import '../Style/App.css';
 
 function Categories(){
     let { flavour } = useParams()
+    //scroll page after click link
+    const handleClick = () =>{
+        window.scrollTo(0, 0)
+    }
 
     return (
         <div className="list__coffees">
@@ -22,6 +26,7 @@ function Categories(){
                         key={index}
                         className="coffee__link"
                         to={`/coffee/${id}`}
+                        onClick={handleClick}
                     >   
                         <img src={image}/>
                         <h3 className="title__text">

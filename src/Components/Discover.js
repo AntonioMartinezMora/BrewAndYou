@@ -5,6 +5,10 @@ import '../Style/App.css'
 import '../Style/Discover.css'
 
 const Discover = () => {
+    //scroll page after click link
+    const handleClick = () =>{
+        window.scrollTo(0, 0)
+    }
     return (
         <div className="discover">
             <h1>Discover New Coffees</h1>
@@ -21,7 +25,7 @@ const Discover = () => {
                     return <Link
                         to={`/category/${category}`}
                         key={index}
-                        
+                        onClick={handleClick}
                     >
                         <div 
                             className="discovery__link"
