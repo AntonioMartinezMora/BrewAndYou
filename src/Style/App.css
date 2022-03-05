@@ -292,6 +292,59 @@ a{
     margin-left: 5px;
 }
 
+/* FLAVOURS PAGE  -------------------------------
+************************/
+.list__coffees{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 92vh;
+    padding-top: 8vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+@media(max-width:1200px){
+    .coffees__container{
+        padding: 5rem 1rem 0 1rem;
+    }
+}
+
+@media(max-width:1200px){
+    .list__coffees{
+        padding: 5rem 1rem 0 1rem;
+    }
+}
+
+@media(max-width:800px){
+    .list__coffees{
+        padding: 5rem 1rem 0 1rem;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .coffee__name{
+        font-size: 1.3rem;
+    }
+
+    .coffee__link p{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:500px){
+    .list__coffees{
+        padding: 5rem 1rem 0 1rem;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
 /* COFFEE PAGE  -------------------------------
 ************************/
 /* full page container */
@@ -486,13 +539,13 @@ a{
 }
 
 
-
 /* FOOTER  ------------------------------------
 ************************/
 footer{
     width: 100%;
     background-color: var(--dark-blue);
     padding: 1rem;
+    margin-top: 1rem;
 }
 
 .footer__container{

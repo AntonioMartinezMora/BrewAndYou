@@ -2,7 +2,6 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import data from '../Data.json'
 import '../Style/App.css'; 
-import '../Style/Flavours.css'
 
 function Flavours(){
     let { flavour } = useParams()
