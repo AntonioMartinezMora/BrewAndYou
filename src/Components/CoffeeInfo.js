@@ -1,6 +1,5 @@
 import React from "react";
 import '../Style/App.css'; 
-import '../Style/CoffeeInfo.css'; 
 
 const CoffeeInfo = props =>{
     return (
