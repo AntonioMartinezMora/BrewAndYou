@@ -5,7 +5,6 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import '../Style/App.css'; 
-import '../Style/ShareSocial.css'; 
 
 const  ShareSocial = props =>{
     const pageUrl = window.location.href
