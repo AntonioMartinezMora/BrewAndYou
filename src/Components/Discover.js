@@ -2,7 +2,6 @@ import React from "react";
 import Discodata from '../Discover.json';
 import {Link} from "react-router-dom";
 import '../Style/App.css'
-import '../Style/Discover.css'
 
 const Discover = () => {
     //scroll page after click link

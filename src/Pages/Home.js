@@ -3,7 +3,7 @@ import React from "react";
 import Discover from "../Components/Discover";
 import Hero from "../Components/Hero";
 // Style
-import '../Style/Home.css'
+import '../Style/App.css'
 
 function Home(){
     return <main>

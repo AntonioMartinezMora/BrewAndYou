@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import data from '../Data.json';
 import '../Style/App.css'; 
-import '../Style/Recommended.css'; 
 
 function Recommended(){
     //scroll page after click link

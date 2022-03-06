@@ -19,7 +19,7 @@ function Coffee(){
                         id,
                         index,
                         image,
-                        type,
+                        category,
                         country,
                         name,
                         descript,
@@ -32,7 +32,7 @@ function Coffee(){
                         btnThree
                     } = item
                     const newCoffee = {
-                        id, image, type, country, name, descript, recipe, index, needOne, needTwo, needThree, btnOne, btnTwo, btnThree
+                        id, image, category, country, name, descript, recipe, index, needOne, needTwo, needThree, btnOne, btnTwo, btnThree
                     }
                     return(
                         <div 
@@ -46,7 +46,7 @@ function Coffee(){
                                     {country}
                                 </small>
                                 <small className="type small__info">
-                                    {type} coffee
+                                    {category} coffee
                                 </small>
                             </div>
                             <div className="coffee__info--container">   
