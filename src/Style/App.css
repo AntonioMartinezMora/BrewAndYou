@@ -208,7 +208,7 @@ a{
     text-align: center;
 }
 
-.hero__info button{
+/* .hero__info button{
     margin-top: 1rem;
     border: none;
     background-color:var(--light-blue);
@@ -222,7 +222,7 @@ a{
 .hero__info button:hover{
     background-color: var(--blue);
     color: var(--light-blue);
-}
+} */
 
 @media(max-width:800px){
     .hero .hero__info{
@@ -248,6 +248,30 @@ a{
     .hero__info {
         max-width: 90%;
     }
+}
+
+/* HERO BUTTON Component  -------------------------------
+************************/
+.hero__btn{
+    margin-top: 1rem;
+    border: none;
+    background-color:var(--light-blue);
+    padding: 10px 16px;
+    border-radius:5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.hero__btn a{
+    color: var(--dark-blue);
+}
+
+.hero__btn:hover{
+    background-color: var(--blue);
+}
+
+.hero__btn:hover a{
+    color: var(--light-blue);
 }
 
 
