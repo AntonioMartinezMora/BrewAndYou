@@ -698,27 +698,27 @@ main{
     grid-template-columns: 60% 40%;
 }
 
-form{
+.contact__container form{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-form p{
+.contact__container form p{
     width: 80%;
     font-size: 1rem;
     letter-spacing: 2px;
     margin-bottom: 1rem;
 }
 
-form .form__top{
+.contact__container form .form__top{
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-form input{
+.contact__container form input{
     width: 39%;
     margin: 0 1%;
     height: 2.5rem;
@@ -728,7 +728,7 @@ form input{
     padding-left: 1rem;
 }
 
-form textarea{
+.contact__container form textarea{
     width: 80%;
     margin-top: 2rem;
     border: solid 2px var(--blue);
