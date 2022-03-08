@@ -10,11 +10,6 @@ const Footer = () => {
         <footer>
             <div className="footer__container">
             <div className="footer__left">
-                {/* <Link
-                    to={"/"}
-                >
-                    www.brewedandyou.co
-                </Link> */}
                 <div className="footer__pages">
                     <Link
                         to={"/about"}
