@@ -8,7 +8,12 @@ const Contact = () => {
                 Contact Us
             </h1>
             <div className="contact__container">
-                <form name="contact" netlify>
+                <form 
+                    name="contact-form" 
+                    method="POST"
+                    data-netlify="true"
+                >
+                    <input type="hidden" name="form-name" value="contact-form" />
                     <p>Have a question?, Want to know anything about us?,Can we help you with something and just want to say something? Send us an email!</p>
                     <div className="form__top">
                         <input type="text" name="name" id="name" placeholder="Full Name"/>
