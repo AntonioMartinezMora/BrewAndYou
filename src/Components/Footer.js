@@ -6,6 +6,10 @@ import SocialLinks from "../Components/SocialLinks"
 
 const Footer = () => {
     const year = new Date().getFullYear()
+    //scroll page after click link
+    const handleClick = () =>{
+        window.scrollTo(0, 0)
+    }
 
     return (
         <footer>
@@ -15,18 +19,21 @@ const Footer = () => {
                     <Link
                         to={"/about"}
                         className="footer__page--link"
+                        onClick={handleClick}
                     >
                         About
                     </Link>
                     <Link
                         to={"/terms"}
                         className="footer__page--link"
+                        onClick={handleClick}
                     >
                         Terms
                     </Link>
                     <Link
                         to={"/contact"}
                         className="footer__page--link"
+                        onClick={handleClick}
                     >
                         Contact
                     </Link>

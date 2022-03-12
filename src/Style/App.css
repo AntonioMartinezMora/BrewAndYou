@@ -805,6 +805,29 @@ main{
     }
 }
 
+/* ERROR PAGE  ---------------------------
+************************/
+.error__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.error__container .error__img img{
+    height: 400px;
+}
+
+.error__container .error__btn{
+    background: var(--blue);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--dark);
+    outline: none;
+}
+
+
 /* FOOTER  ------------------------------------
 ************************/
 footer{
