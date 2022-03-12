@@ -159,6 +159,7 @@ main{
 .respon__menu .type__link{
     margin: 0.5rem;
     color: black;
+    font-size: 1.3rem;
 }
 
 @media(max-width:800px){
@@ -169,6 +170,33 @@ main{
     .burger__menu{
         display: flex;
     }
+}
+
+.respon__menu .social__icons__cont{
+    margin: 1rem 0 0 0;
+    padding: 0.5rem;
+    border-top: 2px solid var(--blue);
+}
+
+.respon__menu .footer__social--link{
+    color: var(--blue);
+    font-size: 1.8rem;
+    margin: 0.3rem;
+}
+
+.respon__menu .contact__link{
+    padding: 0.7rem 1rem;
+    border: 2px solid var(--blue);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__link .contact__icon{
+    color: var(--blue);
+    margin-right: 10px;
 }
 
 /* HERO  -----------------------------------

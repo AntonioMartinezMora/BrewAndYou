@@ -2,6 +2,7 @@ import React from "react";
 import {Link} from "react-router-dom"
 import { FaInstagramSquare,FaTwitterSquare  } from "react-icons/fa";
 import '../Style/App.css'; 
+import SocialLinks from "../Components/SocialLinks"
 
 const Footer = () => {
     const year = new Date().getFullYear()
@@ -34,20 +35,7 @@ const Footer = () => {
 
             <div className="footer__center">
                 Keep up with us 
-                <a 
-                    href={"https://twitter.com/societyjersey"}
-                    target="_blank"
-                    className="footer__social--link"
-                >
-                    <FaTwitterSquare />
-                </a>
-                <a 
-                    href={"https://twitter.com/societyjersey"}
-                    target="_blank"
-                    className="footer__social--link"
-                >
-                    <FaInstagramSquare/>
-                </a>
+                <SocialLinks/>
                  
             </div>
 

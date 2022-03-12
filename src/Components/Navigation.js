@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import data from '../Data.json';
 import {Link, Location, useLocation} from 'react-router-dom'
+import SocialLinks from "../Components/SocialLinks"
 import '../Style/App.css'
 // Import icons
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 
 const Navigation = () => {
     // Mobile Menu
@@ -70,6 +71,16 @@ const Navigation = () => {
                             )
                         }  
                     })}
+                    <SocialLinks/>
+                    <Link
+                        to={"/contact"}
+                        className="type__link contact__link"
+                    >
+                        <AiOutlineMail 
+                            className="contact__icon"
+                        />
+                        Contact
+                    </Link>
                 </div>
             </nav>
         </div>
