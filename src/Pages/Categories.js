@@ -11,7 +11,7 @@ function Categories(){
     }
 
     return (
-        <div className="list__coffees">
+        <div className="list__page">
             {data.map((item)=>{
                 if(item.category === flavour){
                     const {
@@ -29,10 +29,12 @@ function Categories(){
                         onClick={handleClick}
                     >   
                         <img src={image}/>
-                        <h3 className="title__text">
-                            {name}
-                        </h3>
-                        <p>{short}</p>
+                        <div className="coffee__card--info">
+                            <h3>
+                                {name}
+                            </h3>
+                            <p>{short}</p>
+                        </div>  
                     </Link>
                 }
             })}

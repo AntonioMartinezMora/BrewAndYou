@@ -1,0 +1,47 @@
+[
+    {
+        "id": "trend-one",
+        "index": 1,
+        "image": "https://www.homegrounds.co/wp-content/uploads/2021/08/Photo_CoffeeTrends_Dalgona-1.jpg",
+        "title": "fruit is getting into ice coffee",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
+        "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor dipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "date": "2/22/2022"
+    },
+    {
+        "id": "trend-two",
+        "index": 2,
+        "image": "https://www.mensjournal.com/wp-content/uploads/2021/04/Snacks.jpg?quality=55&strip=all",
+        "title": "ice pineapple or something",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
+        "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor dipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "date": "2/22/2022"
+    },
+    {
+        "id": "trend-three",
+        "index": 3,
+        "image": "https://i.pinimg.com/736x/47/dc/42/47dc425caff67c1e10a9b8eecc36a859.jpg",
+        "title": "this a great third trend",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
+        "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor dipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "date": "2/22/2022"
+    },
+    {
+        "id": "trend-four",
+        "index": 4,
+        "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/02/28/FN_starbucks-iced-coconut-milk-drinks_s4x3.jpg.rend.hgtvcom.406.305.suffix/1583169749683.jpeg",
+        "title": "this a great fourth trend",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
+        "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor dipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "date": "2/22/2022"
+    },
+    {
+        "id": "trend-five",
+        "index": 5,
+        "image": "https://twigscafe.com/wp-content/uploads/2021/06/selection-of-different-coffee-type.jpg",
+        "title": "this a great fitfh trend",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
+        "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor dipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "date": "2/22/2022"
+    }
+]

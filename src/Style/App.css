@@ -58,6 +58,59 @@ a{
     letter-spacing: 2px;
 }
 
+/* LIST PAGE  -------------------------------
+************************/
+.list__page{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 92vh;
+    padding-top: 8vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+@media(max-width:1200px){
+    .coffees__container{
+        padding: 5rem 1rem 0 1rem;
+    }
+}
+
+@media(max-width:1200px){
+    .list__page{
+        padding: 5rem 1rem 0 1rem;
+    }
+}
+
+@media(max-width:800px){
+    .list__page{
+        padding: 5rem 1rem 0 1rem;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .coffee__name{
+        font-size: 1.3rem;
+    }
+
+    .coffee__link p{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:500px){
+    .list__page{
+        padding: 5rem 1rem 0 1rem;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Coffee title with underline */
 .title__text{
     font-size: 1rem;
@@ -318,8 +371,39 @@ main{
 .hero__btn:hover a{
     color: var(--light-blue);
 }
+/* TRENDS PAGE  ------------------------------
+************************/
+.trend__link{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-color: rgb(245, 245, 245);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+    cursor: pointer;
+}
 
-/* DISCOVER SECTION  ------------------------------
+.trend__link img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+}
+
+.trend__link h3{
+    position: absolute;
+    top: 30%;
+    right: 0;
+    background-color: rgba(224, 251, 252, 0.8);
+    font-size: 1.5rem;
+    max-width: 50%;
+    padding: 1rem;
+    color: var(--dark-blue);
+    text-transform: capitalize;
+}
+
+/* DISCOVER PAGE  ------------------------------
 ************************/
 .discover{
     display: flex;
@@ -414,10 +498,11 @@ main{
 }
 
 .coffee__link img{
-    height: 70%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     border-top-left-radius: 10px;
+    border-bottom-right-radius: 15px;
 }
 
 .coffee__link::before{
@@ -425,75 +510,39 @@ main{
     position: absolute;
     top: 0;
     left: 0;
-    height: 70%;
+    height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+    /* background-color: rgba(0, 0, 0, 0.2); */
     border-top-left-radius: 10px;
+    border-bottom-right-radius: 15px;
 }
 
 .coffee__link:hover::before{
     background-color: rgba(0, 0, 0, 0);
 }
 
+.coffee__card--info{
+    position: absolute;
+    bottom: 20%;
+    width: 60%;
+    /* height: 30%; */
+    background-color: rgba(224, 251, 252, 0.8);
+    border-bottom-right-radius: 15px;
+    padding: 0.5rem 1rem;
+}
+
+.coffee__link h3{
+    color: var(--dark-blue);
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
 .coffee__link p{
-    color: var(--dark);
+    color: var(--dark-blue );
     font-size: 0.9rem;
     font-weight: 300;
     margin: 0.4rem 0;
     margin-left: 5px;
-}
-
-/* CATEGORIES PAGE  -------------------------------
-************************/
-.list__coffees{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    min-height: 92vh;
-    padding-top: 8vh;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
-}
-
-@media(max-width:1200px){
-    .coffees__container{
-        padding: 5rem 1rem 0 1rem;
-    }
-}
-
-@media(max-width:1200px){
-    .list__coffees{
-        padding: 5rem 1rem 0 1rem;
-    }
-}
-
-@media(max-width:800px){
-    .list__coffees{
-        padding: 5rem 1rem 0 1rem;
-        max-width: 1200px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .coffee__name{
-        font-size: 1.3rem;
-    }
-
-    .coffee__link p{
-        font-size: 1rem;
-    }
-}
-
-@media(max-width:500px){
-    .list__coffees{
-        padding: 5rem 1rem 0 1rem;
-        max-width: 1200px;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
 }
 
 /* COFFEE PAGE  -------------------------------
