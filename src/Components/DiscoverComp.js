@@ -22,7 +22,7 @@ const Discover = () => {
                         category
                     } = discovery
                     return <Link
-                        to={`/category/${category}`}
+                        to={`/discovery/${category}`}
                         key={index}
                         onClick={handleClick}
                     >

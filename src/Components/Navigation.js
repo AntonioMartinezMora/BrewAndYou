@@ -30,19 +30,30 @@ const Navigation = () => {
                     <img src={location.pathname === '/' ? "https://media.publit.io/file/MainImages/BrewedAndYou_logo-white.png" : "https://media.publit.io/file/MainImages/BrewedAndYou_logo.png"}  />
                 </Link>
                 <div className="nav__menu">
-                    {typesCoffees.map((category, index)=>{
-                      if(category !== undefined){
-                          return(
-                            <Link
-                                to={`category/${category}`}
-                                key={index}
-                                className={location.pathname === '/' ? "type__link--home" : "type__link"} 
-                            >
-                              {category}
-                            </Link>
-                          )
-                      }  
-                    })}
+                    <Link
+                        to={"/news"}
+                        className={location.pathname === '/' ? "type__link--home" : "type__link"} 
+                        >
+                        news
+                    </Link>
+                    <Link
+                        to={"/trends"}
+                        className={location.pathname === '/' ? "type__link--home" : "type__link"} 
+                        >
+                        trends
+                    </Link>
+                    <Link
+                        to={"/discover"}
+                        className={location.pathname === '/' ? "type__link--home" : "type__link"} 
+                        >
+                        discover
+                    </Link>
+                    <Link
+                        to={"/contact"}
+                        className={location.pathname === '/' ? "type__link--home" : "type__link"} 
+                        >
+                        contact
+                    </Link>
                 </div>
                 <div 
                     className="burger__menu"
@@ -57,20 +68,24 @@ const Navigation = () => {
                 </div>
 
                 <div className={openMenu ? "respon__menu open" : "respon__menu"}>
-                    {typesCoffees.map((type, index)=>{
-                        if(type !== undefined){
-                            return(
-                                <Link
-                                    to={`category/${type}`}
-                                    key={index}
-                                    className="type__link"
-                                    onClick={()=> setOpenMenu(false)}
-                                >
-                                {type}
-                                </Link>
-                            )
-                        }  
-                    })}
+                    <Link
+                        to={"/news"}
+                        className="type__link"
+                    >
+                        news
+                    </Link>
+                    <Link
+                        to={"/trends"}
+                        className="type__link"
+                    >
+                        trends
+                    </Link>
+                    <Link
+                        to={"/discover"}
+                        className="type__link"
+                    >
+                        discover
+                    </Link>
                     <SocialLinks/>
                     <Link
                         to={"/contact"}

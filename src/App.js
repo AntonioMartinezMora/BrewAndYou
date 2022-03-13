@@ -11,6 +11,7 @@ import About from './Pages/About'
 import Terms from './Pages/Terms'
 import Contact from './Pages/Contact'
 import Error from './Pages/Error'
+import Discover from './Pages/Discover';
 
 function App() {
   return (
@@ -22,11 +23,35 @@ function App() {
           element={<Home />}
         />
         <Route 
-          path="/category/:flavour"
+          path="/discovery/:flavour"
           element={<Categories />}
         />
         <Route 
           path="/coffee/:id"
+          element={<Coffee />}
+        />
+        <Route 
+          path="/news"
+          element={<Categories />}
+        />
+        <Route 
+          path="/trends"
+          element={<Categories />}
+        />
+        <Route 
+          path="/discover"
+          element={<Discover />}
+        />
+        <Route 
+          path="/news/:id"
+          element={<Coffee />}
+        />
+        <Route 
+          path="/trends/:id"
+          element={<Coffee />}
+        />
+        <Route 
+          path="/discover/:id"
           element={<Coffee />}
         />
         <Route 
