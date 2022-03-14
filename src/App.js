@@ -24,7 +24,7 @@ function App() {
           element={<Home />}
         />
         <Route 
-          path="/discovery/:flavour"
+          path="/discovery/:category"
           element={<Categories />}
         />
         <Route 

@@ -523,7 +523,7 @@ main{
 
 .coffee__card--info{
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     width: 60%;
     /* height: 30%; */
     background-color: rgba(224, 251, 252, 0.8);
@@ -533,8 +533,10 @@ main{
 
 .coffee__link h3{
     color: var(--dark-blue);
+    border-bottom: 2px solid var(--blue);
     font-size: 1.2rem;
     margin-left: 5px;
+    width: fit-content;
 }
 
 .coffee__link p{

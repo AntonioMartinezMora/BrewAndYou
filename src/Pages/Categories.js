@@ -4,7 +4,7 @@ import data from '../Data.json'
 import '../Style/App.css'; 
 
 function Categories(){
-    let { flavour } = useParams()
+    let { category } = useParams()
     //scroll page after click link
     const handleClick = () =>{
         window.scrollTo(0, 0)
@@ -13,7 +13,7 @@ function Categories(){
     return (
         <div className="list__page">
             {data.map((item)=>{
-                if(item.category === flavour){
+                if(item.category === category){
                     const {
                         id,
                         index,
