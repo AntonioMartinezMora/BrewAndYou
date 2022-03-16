@@ -31,9 +31,9 @@ function Coffee(){
                         btnTwo,
                         btnThree
                     } = item
-                    const newCoffee = {
-                        id, image, category, country, name, descript, recipe, index, needOne, needTwo, needThree, btnOne, btnTwo, btnThree
-                    }
+                    // const newCoffee = {
+                    //     id, image, category, country, name, descript, recipe, index, needOne, needTwo, needThree, btnOne, btnTwo, btnThree
+                    // }
                     return(
                         <div 
                             className="coffee__page"

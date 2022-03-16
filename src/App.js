@@ -13,6 +13,7 @@ import Contact from './Pages/Contact'
 import Error from './Pages/Error'
 import Discover from './Pages/Discover';
 import Trends from './Pages/Trends';
+import Trend from './Pages/Trend';
 
 function App() {
   return (
@@ -49,7 +50,7 @@ function App() {
         />
         <Route 
           path="/trends/:id"
-          element={<Coffee />}
+          element={<Trend/>}
         />
         <Route 
           path="/discover/:id"
