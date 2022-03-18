@@ -16,26 +16,31 @@ function Recommended(){
     return (
         <div className="recommended__container">
             {selectedItems.map((item)=>{
-                const {
-                    id,
-                    index,
-                    image,
-                    type,
-                    name,
-                    short
-                } = item
-                return<Link
-                        key={index}
-                        className="coffee__link"
-                        to={`/coffee/${id}`}
-                        onClick={handleClick}
-                    >   
-                        <img src={image}/>
-                        <h3 className="title__text">
-                            {name}
-                        </h3>
-                        <p>{short}</p>
-                    </Link>
+                if(item.type === 'discover'){
+                    const {
+                        id,
+                        index,
+                        image,
+                        type,
+                        name,
+                        short
+                    } = item
+                    return<Link
+                            key={index}
+                            className="coffee__link"
+                            to={`/coffee/${id}`}
+                            onClick={handleClick}
+                        >   
+                            <img src={image}/>
+                            <div className="coffee__card--info">
+                                <h3>
+                                    {name}
+                                </h3>
+                                <p>{short}</p>
+                            </div>  
+                        </Link>
+                }
+                
             })}
         </div>
     )

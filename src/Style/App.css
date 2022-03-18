@@ -38,6 +38,11 @@ a{
     font-family: 'Shrikhand', cursive;
 }
 
+h1{
+    font-family: 'Shrikhand', cursive;
+    color: var(--dark);
+}
+
 /* PAGE STYLE */
 .page__container{
     min-height: 92vh;
@@ -394,14 +399,15 @@ main{
 
 .trend__link h3{
     position: absolute;
-    top: 30%;
+    bottom: 10%;
     right: 0;
-    background-color: rgba(224, 251, 252, 0.8);
-    font-size: 1.5rem;
-    max-width: 50%;
+    background-color: rgba(224, 251, 252, 0.9);
+    font-size: 1.3rem;
+    max-width: 60%;
     padding: 1rem;
     color: var(--dark-blue);
     text-transform: capitalize;
+    font-family: 'Shrikhand', cursive;border-top-left-radius: 10px;
 }
 
 /* TREND & NEWS  =====BLOG PAGE ====================
@@ -604,6 +610,7 @@ main{
     font-size: 1.2rem;
     margin-left: 5px;
     width: fit-content;
+    font-family: 'Shrikhand', cursive;
 }
 
 .coffee__link p{
