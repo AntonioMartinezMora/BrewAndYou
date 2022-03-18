@@ -13,25 +13,31 @@ const Trends = ( ) => {
     <div className="list__page">
         {data.map((item) =>{
             if(item.type === 'trends'){
-                console.log(data)
+                // console.log(data)
                 const {
                     id,
                     index,
                     image,
                     title,
+                    short,
+                    date
                 } = item
                 return<Link
                     key={index}
-                    className='trend__link'
+                    className='list__link'
                     to={`/trends/${id}`}
                     onClick={handleClick}
                 >
                     <img src={image}/>
-                    <div className="trend__card--title">
-                        <h3 className='title__trend-card'>
-                            {title}
-                        </h3>
-                    </div>
+                    <small>
+                        {date}
+                    </small>
+                    <h3>
+                        {title}
+                    </h3>
+                    <p>
+                        {short}
+                    </p>
                 </Link>
             }
         })}

@@ -21,7 +21,7 @@ function Coffee(){
                         image,
                         category,
                         country,
-                        name,
+                        title,
                         descript,
                         recipe,
                         needOne,
@@ -41,7 +41,7 @@ function Coffee(){
                         >
                             <img src={image}/>
                             <div className="coffee__info">
-                                <h1 className="main__headline">{name}</h1>
+                                <h1 className="main__headline">{title}</h1>
                                 <small className="country small__info">
                                     {country}
                                 </small>
@@ -56,7 +56,7 @@ function Coffee(){
                                     recipe={recipe}
                                 />
                                 <ShareSocial 
-                                    name={name}
+                                    name={title}
                                 />
                                 </div>
                                 
