@@ -14,6 +14,7 @@ import Error from './Pages/Error'
 import Discover from './Pages/Discover';
 import Trends from './Pages/Trends';
 import Trend from './Pages/Trend';
+import News from './Pages/News';
 
 function App() {
   return (
@@ -25,35 +26,35 @@ function App() {
           element={<Home />}
         />
         <Route 
-          path="/discovery/:category"
-          element={<Categories />}
-        />
-        <Route 
-          path="/coffee/:id"
-          element={<Coffee />}
-        />
-        <Route 
           path="/news"
-          element={<Categories />}
-        />
-        <Route 
-          path="/trends"
-          element={<Trends />}
-        />
-        <Route 
-          path="/discover"
-          element={<Discover />}
+          element={<News />}
         />
         <Route 
           path="/news/:id"
           element={<Coffee />}
         />
         <Route 
+          path="/trends"
+          element={<Trends />}
+        />
+        <Route 
           path="/trends/:id"
           element={<Trend/>}
         />
         <Route 
+          path="/discover"
+          element={<Discover />}
+        />
+        <Route 
+          path="/discovery/:category"
+          element={<Categories />}
+        />
+        <Route 
           path="/discover/:id"
+          element={<Coffee />}
+        />
+        <Route 
+          path="/coffee/:id"
           element={<Coffee />}
         />
         <Route 

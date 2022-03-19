@@ -21,23 +21,26 @@ function Recommended(){
                         id,
                         index,
                         image,
-                        type,
-                        name,
+                        title,
+                        country,
                         short
                     } = item
                     return<Link
                             key={index}
-                            className="coffee__link"
+                            className="list__link"
                             to={`/coffee/${id}`}
                             onClick={handleClick}
                         >   
                             <img src={image}/>
-                            <div className="coffee__card--info">
-                                <h3>
-                                    {name}
-                                </h3>
-                                <p>{short}</p>
-                            </div>  
+                            <small className="country__list--link">
+                            {country}
+                        </small>
+                        <h3>
+                            {title}
+                        </h3>
+                        <p>
+                            {short}
+                        </p>
                         </Link>
                 }
                 

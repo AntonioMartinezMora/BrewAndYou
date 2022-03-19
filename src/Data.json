@@ -407,5 +407,55 @@
         "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
         "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor dipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
         "date": "2/22/2022"
+    },
+    {
+        "type": "news",
+        "id": "news-one",
+        "index": 26,
+        "image": "https://www.homegrounds.co/wp-content/uploads/2021/08/Photo_CoffeeTrends_Dalgona-1.jpg",
+        "title": "starbucks is gonna lose a lot of",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
+        "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor dipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "date": "2/22/2022"
+    },
+    {
+        "type": "news",
+        "id": "news-two",
+        "index": 27,
+        "image": "https://www.mensjournal.com/wp-content/uploads/2021/04/Snacks.jpg?quality=55&strip=all",
+        "title": "ice pineapple or something",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
+        "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor dipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "date": "2/22/2022"
+    },
+    {
+        "type": "news",
+        "id": "news-three",
+        "index": 28,
+        "image": "https://i.pinimg.com/736x/47/dc/42/47dc425caff67c1e10a9b8eecc36a859.jpg",
+        "title": "this a great third news",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
+        "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor dipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "date": "2/22/2022"
+    },
+    {
+        "type": "news",
+        "id": "news-four",
+        "index": 29,
+        "image": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2020/02/28/FN_starbucks-iced-coconut-milk-drinks_s4x3.jpg.rend.hgtvcom.406.305.suffix/1583169749683.jpeg",
+        "title": "this a great fourth news",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
+        "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor dipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "date": "2/22/2022"
+    },
+    {
+        "type": "news",
+        "id": "news-five",
+        "index": 30,
+        "image": "https://twigscafe.com/wp-content/uploads/2021/06/selection-of-different-coffee-type.jpg",
+        "title": "this a great fitfh headline",
+        "short": "lit id rhoncus elementum, tortor sem luctus magna two words more",
+        "descript": "coffee number 1 ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor dipiscing elit. Nunc ultricies, elit id rhoncus elementum, tortor sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree sem luctus magna, eget malesuada enim lectus vitae eros. Nullam luctus libero ut felis pellentesque laoree",
+        "date": "2/22/2022"
     }
 ]

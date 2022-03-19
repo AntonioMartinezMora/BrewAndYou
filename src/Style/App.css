@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 *{
     margin: 0;
@@ -14,10 +13,11 @@
     --blue: #98C1D9;
     --dark-blue: #3D5A80;
     --grey: rgb(247, 247, 247);
+    --light-orange: rgba(238, 108, 77, 0.4);
 }
 
 body{
-    font-family: 'Varela', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--dark);
 }
 
@@ -35,11 +35,9 @@ a{
     text-transform: capitalize;
     margin-bottom: 1rem;
     color: var(--dark);
-    font-family: 'Shrikhand', cursive;
 }
 
 h1{
-    font-family: 'Shrikhand', cursive;
     color: var(--dark);
 }
 
@@ -63,6 +61,7 @@ h1{
     font-size: 1.1rem;
     letter-spacing: 2px;
 }
+
 
 /* LIST PAGE  -------------------------------
 ************************/
@@ -166,7 +165,7 @@ h1{
 }
 
 /* Coffee title with underline */
-.title__text{
+/* .title__text{
     font-size: 1rem;
     font-family: 'Shrikhand', cursive;
     font-weight: 400;
@@ -175,7 +174,7 @@ h1{
     width: fit-content;
     margin-left: 5px;
     text-transform: capitalize;
-}
+} */
 
 /* HOME ----------------------------------------------
 ************************/
@@ -499,6 +498,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5rem;
 }
 
 .discover .discover__text{
@@ -549,10 +549,11 @@ main{
 .discovery__link h3{
     z-index: 99;
     color: white;
-    font-family: 'Shrikhand', cursive;
     letter-spacing: 1px;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
 }
 
 .discovery__link p{
@@ -573,67 +574,6 @@ main{
         max-width: 500px;
     }
 }
-
-
-/* COFFEE CARD  -----------------------------------
-************************/
-/* .coffee__link{
-    width: 100%;
-    height: 300px;
-    position: relative;
-    background-color: rgb(245, 245, 245);
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 15px;
-}
-
-.coffee__link img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 15px;
-}
-
-.coffee__link::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 15px;
-}
-
-.coffee__link:hover::before{
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.coffee__card--info{
-    position: absolute;
-    bottom: 10%;
-    width: 60%;
-    background-color: rgba(224, 251, 252, 0.8);
-    border-bottom-right-radius: 15px;
-    padding: 0.5rem 1rem;
-}
-
-.coffee__link h3{
-    color: var(--dark-blue);
-    border-bottom: 2px solid var(--blue);
-    font-size: 1.2rem;
-    margin-left: 5px;
-    width: fit-content;
-    font-family: 'Shrikhand', cursive;
-}
-
-.coffee__link p{
-    color: var(--dark-blue );
-    font-size: 0.9rem;
-    font-weight: 300;
-    margin: 0.4rem 0;
-    margin-left: 5px;
-} */
 
 /* COFFEE PAGE  -------------------------------
 ************************/
