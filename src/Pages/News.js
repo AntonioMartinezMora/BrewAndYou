@@ -25,7 +25,7 @@ const News = () => {
                     return<Link
                         key={index}
                         className='list__link'
-                        to={`/trends/${id}`}
+                        to={`/news/${id}`}
                         onClick={handleClick}
                     >
                         <img src={image}/>

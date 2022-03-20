@@ -1,9 +1,9 @@
-import React from "react";
-import { useParams } from "react-router-dom";
-import data from '../Data.json'
-import '../Style/App.css'; 
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import data from '../Data.json';
+import '../Style/App.css'
 
-function Trend() {
+function NewsPage() {
     const {id} = useParams()
 
     return (
@@ -41,4 +41,4 @@ function Trend() {
     )
 }
 
-export default Trend;
+export default NewsPage;
