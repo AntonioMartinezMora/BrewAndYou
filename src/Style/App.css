@@ -152,32 +152,21 @@ h1{
 .list__link small{
     color: var(--orange);
     padding-left: 1rem;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .list__link .country__list--link{
-    background-color:rgba(238, 108, 77, 0.3);
-    margin-left: 1rem;
+    background-color:var(--grey);
+    margin-left: 0.7rem;
     padding: 0 5px;
     border-radius: 3px;
+    color: var(--blue);
 }
 
 .list__link p{
     padding-left: 1rem;
     color: var(--dark);
 }
-
-/* Coffee title with underline */
-/* .title__text{
-    font-size: 1rem;
-    font-family: 'Shrikhand', cursive;
-    font-weight: 400;
-    color: var(--dark);
-    border-bottom: 2px solid var(--blue);
-    width: fit-content;
-    margin-left: 5px;
-    text-transform: capitalize;
-} */
 
 /* HOME ----------------------------------------------
 ************************/
@@ -662,22 +651,19 @@ main{
 }
 
 .coffee__info .country{
-    background: var(--light-blue);
-    color: var(--dark);
-    padding: 5px 10px;
-    margin-right: 0.5rem;
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 15px;
-    text-transform: capitalize;
+        background-color:var(--grey);
+        /* margin-left: 0.7rem; */
+        padding:  5px;
+        border-radius: 3px;
+        color: var(--blue);
+        text-transform: uppercase;
 }
 
 .coffee__info .type{
-    border: solid 1px var(--light-blue);
+    border-left: solid 2px var(--blue);
     color: var(--dark);
     padding: 5px 10px;
     margin-right: 0.5rem;
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 15px;
     text-transform: uppercase;
 }
 

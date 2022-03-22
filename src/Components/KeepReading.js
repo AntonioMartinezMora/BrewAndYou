@@ -5,6 +5,9 @@ import '../Style/App.css';
 import {CgNotes} from "react-icons/cg";
 
 const KeepReading = props =>{
+    const handleClick = () =>{
+        window.scrollTo(0, 0)
+    }
     // get the type of blog(trend or news)
     const typeLink = props.type
     // new array with correct type
@@ -32,6 +35,7 @@ const KeepReading = props =>{
                     className="kr__item"
                     to={`/${typeLink}/${id}`}
                     key={index}
+                    onClick={handleClick}
                     >
                     <img src={image}/>
                     <div className="kr__info">
