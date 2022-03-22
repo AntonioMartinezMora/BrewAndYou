@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-// import {FaChevronRight} from "react-icons/ai";
 import CoffeeInfo from "../Components/CoffeeInfo";
 import NeedsList from '../Components/NeedsList';
 import ShareSocial from '../Components/ShareSocial';
@@ -71,7 +70,7 @@ function Coffee(){
                                 />
                                 </div>
                                 <h1 className="second__headline">
-                                You might also like:
+                                Discover more:
                             </h1>
                             </div>
 

@@ -2,6 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import data from '../Data.json'
 import '../Style/App.css'; 
+import KeepReading from "../Components/KeepReading";
+import Recommended from "../Components/Recommeded";
 
 function BlogPage() {
     const {id} = useParams()
@@ -16,7 +18,8 @@ function BlogPage() {
                         title,
                         short,
                         descript,
-                        date
+                        date,
+                        type
                     } = item
                     return(
                         <div 
@@ -31,12 +34,17 @@ function BlogPage() {
                                 <p className="text__information">{descript}</p>
                             </div>
                             <div className="blog__sidebar">
-
+                                <KeepReading 
+                                    type={type}
+                                />
                             </div>
                         </div>
                     )
                 }
             })}
+            <h1 className="second__headline">
+            Discover more: </h1>
+            <Recommended/>
         </div>
     )
 }

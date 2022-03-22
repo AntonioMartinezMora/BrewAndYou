@@ -14,6 +14,9 @@
     --dark-blue: #3D5A80;
     --grey: rgb(247, 247, 247);
     --light-orange: rgba(238, 108, 77, 0.4);
+    --box-shadow:2px 2px 15px 2px rgb(245, 245, 245),
+    -2px 2px 15px 2px rgb(245, 245, 245);
+    --border: solid 1px rgb(245, 245, 245);
 }
 
 body{
@@ -28,6 +31,7 @@ a{
 .second__headline{
     margin-bottom: 1rem;
     font-size:1.7rem;
+    padding-left: 1rem;
 }
 
 .main__headline{
@@ -124,9 +128,8 @@ h1{
     border-top-left-radius: 10px;
     border-bottom-right-radius: 15px;
     cursor: pointer;
-    border: solid 1px rgb(245, 245, 245);
-    box-shadow: 2px 2px 15px 2px rgb(245, 245, 245),
-    -2px 2px 15px 2px rgb(245, 245, 245);
+    border: var(--border);
+    box-shadow: var(--box-shadow)
     
 }
 
@@ -468,7 +471,7 @@ main{
 
 .blog__page .blog__sidebar{
     width: 35%;
-    background-color: rgba(238, 108, 77, 0.2); 
+    /* border:2px solid rgba(238, 108, 77, 0.2);  */
     height: 500px;
 }
 
@@ -491,6 +494,68 @@ main{
         width: 100%;
     }
 }
+
+/* ^^^^^^^^^ KEEP READING component
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.keep__reading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vh;
+}
+
+.keep__reading .kr__icon{
+    color: var(--orange);
+    font-size: 1.4rem;
+    margin-right: 0.5rem;
+}
+
+.keep__reading h3{
+    color: var(--dark-blue);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.kr__item{
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 80px auto;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.keep__reading img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.keep__reading .kr__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.kr__info small{
+    color: var(--blue);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+}
+
+.kr__info h4{
+    color: var(--dark-blue);
+    font-size: 1.3rem;
+}
+
 /* DISCOVER PAGE  ------------------------------
 ************************/
 .discover{
