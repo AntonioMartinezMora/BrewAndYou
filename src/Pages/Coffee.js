@@ -6,6 +6,7 @@ import ShareSocial from '../Components/ShareSocial';
 import Recommended from "../Components/Recommeded";
 import data from '../Data.json'
 import '../Style/App.css'; 
+import { BiWorld } from "react-icons/bi";
 
 function Coffee(){
     const {id} = useParams()
@@ -41,12 +42,15 @@ function Coffee(){
                             <img src={image}/>
                             <div className="coffee__info">
                                 <h1 className="main__headline">{title}</h1>
-                                <small className="country small__info">
-                                    {country}
-                                </small>
-                                <small className="type small__info">
-                                    {category} coffee
-                                </small>
+                                <div className="small__info">
+                                    <small className="country small__info">
+                                    <BiWorld className="world__icon"/> 
+                                        {country}
+                                    </small>
+                                    <small className="type small__info">
+                                        {category} coffee
+                                    </small>
+                                </div>
                             </div>
                             <div className="coffee__info--container">   
                                 <div className="main__body">

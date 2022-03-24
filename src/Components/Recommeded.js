@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import data from '../Data.json';
 import '../Style/App.css'; 
+import { BiWorld } from "react-icons/bi";
 
 function Recommended(){
     //scroll page after click link
@@ -32,9 +33,9 @@ function Recommended(){
                             onClick={handleClick}
                         >   
                             <img src={image}/>
-                            <small className="country__list--link">
-                            {country}
-                        </small>
+                            <h6 className="country__list--link">
+                                <BiWorld className="world__icon"/> {country}
+                            </h6>
                         <h3>
                             {title}
                         </h3>
