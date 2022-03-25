@@ -147,16 +147,20 @@ h1{
     color: var(--dark);
     text-transform: capitalize;
     margin: 0.5rem 0;
+    /* background-color: violet; */
 }
 
-.list__link h6{
-    margin: 0;
+.list__link small{
+    color: var(--orange);
+    padding-left: 1rem;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
 }
 
 .list__link .country__list--link{
     background: linear-gradient(to right, #eee, white);
-    padding: 0.8rem 1rem;
-    font-size: 12px;
+    padding: 0.7rem 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
     color: var(--orange);
     text-transform: uppercase;
@@ -665,24 +669,20 @@ main{
 .coffee__info .country{
     background: linear-gradient(to right, #eee, white);
     padding: 6px 10px;
-    font-size: 12px;
-    /* font-weight: 500; */
+    font-size: 0.8rem;
     color: var(--orange);
     text-transform: uppercase;
     display: flex;
     align-items: center;
-    /* height: 20px; */
     width: fit-content;
 }
 
 .coffee__info .type{
     border-left: solid 2px var(--blue);
     color: var(--dark);
-    font-size: 12px;
+    font-size: 0.8rem;
     padding: 5px 10px;
-    /* margin-left: 0.5rem; */
     text-transform: uppercase;
-    /* background: linear-gradient(to right, var(--light-blue), white); */
 }
 
 
