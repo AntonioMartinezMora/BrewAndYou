@@ -250,43 +250,42 @@ main{
     width: 300px;
     background-color: white;
     z-index: 99;
-    position: absolute;
+    position: fixed;
     top: 10vh;
-    right: -500px;
+    right: 20%;
     box-shadow: 2px 10px 10px 2px rgb(0, 0, 0, 0.6);
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
     overflow: hidden;
-    /* opacity: 0; */
+    transform: translateX(1000%);
 }
 
 .menu__content.open{
     animation: menu;
-    animation-duration: 0.5s;
+    animation-duration: 0.8s;
     animation-fill-mode: forwards;
+    transform: translateX(0);
 }
 
 @keyframes menu{
     0%{
-        top: 10vh;
-        right: -500px;
+        transform: translateX(1000%);
     }
     100%{
-        top: 10vh;
-        right: 5%;
+        transform: translateX(0);
     }
 }
 
 @media(max-width:1400px){
-    @keyframes menu{
-        0%{
-            top: 10vh;
-            right: -500px;
-        }
-        100%{
-            top: 10vh;
-            right: 5%;
-        }
+    .menu__content{
+        height: 50vh;
+        width: 300px;
+        background-color: white;
+        z-index: 99;
+        position: fixed;
+        top: 10vh;
+        right: 5%;
+        transform: translateX(200%);
     }
 }
 
@@ -296,15 +295,15 @@ main{
         width: 100%;
         background-color: white;
         z-index: 99;
-        position: absolute;
+        position: fixed;
         top: 8vh;
-        right: -500px;
-        box-shadow: none;
+        right: 0;
+        transform: translateX(200%);
         border-top-left-radius: 0;
         border-bottom-right-radius: 0;
     }
 
-    @keyframes menu{
+    /* @keyframes menu{
         0%{
             top: 8vh;
             right: -500px;
@@ -313,7 +312,7 @@ main{
             top: 8vh;
             right: 0;
         }
-    }
+    } */
 }
 
 /* HERO  -----------------------------------
