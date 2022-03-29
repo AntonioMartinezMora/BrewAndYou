@@ -4,12 +4,13 @@ import {Link, Location, useLocation} from 'react-router-dom'
 import SocialLinks from "../Components/SocialLinks"
 import '../Style/App.css'
 import { useGlobalContext } from '../context'
+import MenuContent from "../Components/MenuContent";
 // Import icons
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail, AiOutlineSearch } from "react-icons/ai";
 
 const Navigation = () => {
     // Mobile Menu
-    const [openMenu, setOpenMenu] = useState(false)
+    const {openMenu, setOpenMenu} = useGlobalContext()
 
     // Filter and display nav types of coffees
     const typesCoffees = [...new Set(data.map((item)=>{
@@ -44,10 +45,8 @@ const Navigation = () => {
                         className={openMenu ? "menu__icon" : "menu__icon hide"}
                     />
                 </button>
-                <div 
-                className={openMenu ? "menu__content open" : "menu__content"}
-                >
-                </div>
+                <MenuContent />
+
                 
             </nav>
             {/* modal background */}
@@ -55,7 +54,6 @@ const Navigation = () => {
                 className={openMenu ? "modal__bg" : "modal__bg hide"}
                 onClick={() => setOpenMenu(!openMenu)}
             ></div>
-            {/* menu container */}
 
         </div>
     )

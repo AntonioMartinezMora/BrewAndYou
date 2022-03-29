@@ -322,7 +322,7 @@ main{
     /* border: solid 1px red; */
     width: 100%;
     max-width: 1200px;
-    margin-top: 8vh;
+    margin-top: 10vh;
     height: 50vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
