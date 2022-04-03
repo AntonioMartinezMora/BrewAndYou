@@ -15,6 +15,7 @@ const MenuContent = () =>{
             <Link
                 to={"/news"}
                 className="menu__link"
+                onClick={() => setOpenMenu(!openMenu)}
             >
                 <BiNews  
                 className='menu__link--icon'/>
@@ -23,6 +24,7 @@ const MenuContent = () =>{
             <Link
                 to={"/trends"}
                 className="menu__link"
+                onClick={() => setOpenMenu(!openMenu)}
             >
                 <BiCoffeeTogo
                 className='menu__link--icon' />
@@ -31,6 +33,7 @@ const MenuContent = () =>{
             <Link
                 to={"/discover"}
                 className="menu__link"
+                onClick={() => setOpenMenu(!openMenu)}
             >
                 <BiWorld
                 className='menu__link--icon' />
@@ -40,6 +43,7 @@ const MenuContent = () =>{
             <Link
                 to={"/contact"}
                 className="menu__link"
+                onClick={() => setOpenMenu(!openMenu)}
             >
                 <BiEnvelope
                 className='menu__link--icon' />
@@ -47,12 +51,22 @@ const MenuContent = () =>{
             </Link>
 
             <div className="menu__social">
-                <FaInstagramSquare
+                <a 
+                    href={"https://instagram.com/brewedandyou"}
+                    target="_blank"
                     className="icon__social"
-                />
-                <FaTwitterSquare
+                    onClick={() => setOpenMenu(!openMenu)}
+                >
+                <FaInstagramSquare/>
+                </a>
+                <a 
+                    href={"https://twitter.com/BrewedAndYou"}
+                    target="_blank"
                     className="icon__social"
-                />
+                    onClick={() => setOpenMenu(!openMenu)}
+                >
+                <FaTwitterSquare />
+                </a>
             </div>
 
             <div className="menu__info">

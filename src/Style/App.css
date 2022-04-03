@@ -74,7 +74,7 @@ h1{
     max-width: 1200px;
     margin: auto;
     min-height: 92vh;
-    padding-top: 8vh;
+    padding-top: 10vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
@@ -231,6 +231,7 @@ main{
     z-index: 999;
     cursor: pointer;
     outline: none;
+    color: var(--dark);
 }
 
 .modal__bg{
@@ -365,9 +366,10 @@ main{
 }
 
 .menu__info{
-    width: 100%;
     max-width: 250px;
     margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .menu__info h3{
@@ -377,12 +379,12 @@ main{
 
 .menu__info p{
     color: var(--dark);
+    width: 300px;
 }
 
 /* HERO  -----------------------------------
 ************************/
 .hero{
-    /* border: solid 1px red; */
     width: 100%;
     max-width: 1200px;
     margin-top: 10vh;
@@ -440,7 +442,6 @@ main{
 }
 
 .hero__side .hero__side--link{
-    /* border: solid 1px red; */
     height: 30%;
     border: var(--border);
     box-shadow: var(--box-shadow);
@@ -467,7 +468,6 @@ main{
     color: var(--dark-blue);
     margin: 0.5rem;
     text-transform: capitalize;
-    /* font-weight: 500; */
     letter-spacing: 1px;
 }
 
