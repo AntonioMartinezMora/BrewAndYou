@@ -382,6 +382,49 @@ main{
     width: 300px;
 }
 
+
+/* SEARCH COMPONENT --____----__-__\/\/\/\/\/\/\/\/\/\/\/
+=+=+=+=+=+=++  */ 
+.search__container{
+    /* border: solid 1px yellowgreen; */
+    z-index: 999;
+    height: 50vh;
+    position: absolute;
+    top: 5vh;
+}
+
+.search__container.close{
+    display: none;
+}
+
+.search__icon{
+    color: var(--dark);
+    font-size: 1.5rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.search__container form{
+    margin-top: 0.5rem;
+}
+
+#input__name{
+    /* border: solid 1px #aaa; */
+    border: none;
+    background-color: var(--grey);
+    padding: 5px 20px 5px 5px;
+    outline: none;
+}
+
+.search__container .search__results{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    border: solid 1px #eee;
+}
+
 /* HERO  -----------------------------------
 ************************/
 .hero{
