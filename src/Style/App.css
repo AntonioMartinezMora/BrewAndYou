@@ -413,16 +413,78 @@ main{
 #input__name{
     /* border: solid 1px #aaa; */
     border: none;
-    background-color: var(--grey);
+    background-color: var(--blue);
     padding: 5px 20px 5px 5px;
     outline: none;
+    height: 2.5rem;
+    z-index: 333;
+    color: white;
+    margin-top: 1rem;
+    /* box-shadow: var(--box-shadow); */
+    border: var(--border);
+}
+
+#input__name::placeholder{
+    color: white;
 }
 
 .search__container .search__results{
-    height: 300px;
-    width: 500px;
+    min-height: 350px;
+    width: 100%;
+    max-width: 1200px;
     background-color: white;
-    border: solid 1px #eee;
+    /* border: solid 1px #eee; */
+    display:grid;
+    grid-template-columns: 380px 380px 380px;
+    grid-gap: 1rem;
+    padding: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.search__container .search__results.close{
+    height: 0;
+    /* background-color: transparent; */
+    width: 0;
+    display: none;
+}
+
+.search__link{
+    height: 150px;
+    border: var(--border);
+    /* box-shadow: var(--box-shadow); */
+    display: grid;
+    grid-template-columns: 200px auto;
+    /* border: 1px red solid; */
+    background-color: white;
+}
+
+.search__link .img__cont{
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.search__link .search__info .hero__tag{
+    background: linear-gradient(to right, #eee, white);
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    color: var(--orange);
+    text-transform: uppercase;
+}
+
+.search__info h3{
+    color: var(--dark-blue);
+    margin: 0.5rem;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+
+.search__info p{
+    letter-spacing: 0;
+    color: #aaa;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
 }
 
 /* HERO  -----------------------------------
@@ -476,7 +538,6 @@ main{
 }
 
 .hero .hero__side{
-    /* border: solid 1px green; */
     height: 50vh;
     display: flex;
     flex-direction: column;
