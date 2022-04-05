@@ -25,7 +25,12 @@ const Navigation = () => {
                         setOpenMenu(false)
                     }}
                 >
-                    <AiOutlineSearch />
+                    <AiOutlineClose 
+                        className={openSearch ? "menu__icon" : "menu__icon hide"}
+                    />
+                    <AiOutlineSearch 
+                        className={openSearch ? "menu__icon hide" : "menu__icon"}
+                    />
                 </button>
                 <Link
                     to="/"

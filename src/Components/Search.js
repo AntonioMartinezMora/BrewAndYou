@@ -38,7 +38,7 @@ const Search = () => {
                 >
                     <input 
                         type="text" 
-                        id='input__name' 
+                        id="search__input"
                         ref={searchValue} 
                         placeholder="Search anything"
                         onChange={searchCoffee}
@@ -73,7 +73,7 @@ const Search = () => {
                                 className="hero__tag" 
                                 >{type}</h6>
                                 <h3>{title}</h3>    
-                                {/* <p>{short}</p>     */}
+                                <p>{short}</p>    
                             </div>
                         </Link> 
                         )
