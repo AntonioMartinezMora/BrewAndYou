@@ -59,7 +59,7 @@ const Navigation = () => {
             </nav>
             {/* modal background */}
             <div 
-                className={openMenu ? "modal__bg" : "modal__bg hide"}
+                className={openMenu || openSearch ? "modal__bg" : "modal__bg hide"}
                 onClick={() => setOpenMenu(!openMenu)}
             ></div>
 
