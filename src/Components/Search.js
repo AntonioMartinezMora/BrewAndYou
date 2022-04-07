@@ -18,8 +18,6 @@ const Search = () => {
 
     const searchCoffee = () => {
         setSearchTerm(searchValue.current.value)
-        // console.log(coffeeList.slice(0,6))
-        // console.log(searchTerm)
     }
 
     if(searchTerm === ''){
@@ -61,6 +59,7 @@ const Search = () => {
                             to={`/${type}/${id}`}
                             key={index}
                             className="search__link"
+                            onClick={() => setOpenSearch(false)}
                         >
                             <div 
                                 className="img__cont"

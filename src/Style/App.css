@@ -256,7 +256,6 @@ main{
     overflow: hidden;
     transform: translateX(1000%);
     padding: 1rem;
-
     display: flex;
     flex-direction: column;
 }
@@ -416,6 +415,7 @@ main{
     max-width: 600px;
     margin-top: 1rem;
     font-size: 1.2rem;
+    -webkit-appearance: none;
 }
 
 #search__input::placeholder{

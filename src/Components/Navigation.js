@@ -14,6 +14,11 @@ const Navigation = () => {
     const {openMenu, setOpenMenu} = useGlobalContext()
     const {openSearch, setOpenSearch} = useGlobalContext()
 
+    const closeBg = () => {
+        setOpenMenu(false)
+        setOpenSearch(false)
+    }
+
     return (
         <div className="navigation">
             <nav className="nav__bar">
@@ -60,7 +65,7 @@ const Navigation = () => {
             {/* modal background */}
             <div 
                 className={openMenu || openSearch ? "modal__bg" : "modal__bg hide"}
-                onClick={() => setOpenMenu(!openMenu)}
+                onClick={closeBg}
             ></div>
 
         </div>
