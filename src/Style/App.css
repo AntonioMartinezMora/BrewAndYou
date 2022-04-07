@@ -198,11 +198,9 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 2rem;
     position: absolute;
     z-index: 999;
     background: transparent;
-    /* overflow-x: hidden; */
 }
 
 .nav__bar{
@@ -232,6 +230,7 @@ main{
     cursor: pointer;
     outline: none;
     color: var(--dark);
+    margin: 0 1rem;
 }
 
 .modal__bg{
@@ -248,14 +247,12 @@ main{
 }
 
 .menu__content{
-    /* height: 50vh; */
     background-color: white;
     z-index: 99;
     position: fixed;
     top: 8vh;
     right: 5%;
     box-shadow: 2px 10px 10px 2px rgb(0, 0, 0, 0.6);
-    /* border-bottom-right-radius: 10px; */
     overflow: hidden;
     transform: translateX(1000%);
     padding: 1rem;
@@ -309,8 +306,6 @@ main{
 
 @media(max-width:1200px){
     .menu__content{
-        /* height: 50vh; */
-        /* width: 300px; */
         background-color: white;
         z-index: 99;
         position: fixed;
@@ -322,8 +317,6 @@ main{
 
 @media(max-width:800px){
     .menu__content{
-        /* height: 92vh; */
-        /* width: 80%; */
         background-color: white;
         z-index: 99;
         position: fixed;
@@ -337,8 +330,6 @@ main{
 
 @media(max-width:550px){
     .menu__content{
-        /* height: 92vh; */
-        /* width: 80%; */
         background-color: white;
         z-index: 99;
         position: fixed;
@@ -386,7 +377,6 @@ main{
 /* SEARCH COMPONENT --____----__-__\/\/\/\/\/\/\/\/\/\/\/
 =+=+=+=+=+=++  */ 
 .search__container{
-    /* border: solid 1px yellowgreen; */
     z-index: 999;
     height: 50vh;
     position: absolute;
@@ -415,17 +405,17 @@ main{
 }
 
 #search__input{
-    border: solid 5px var(--light-orange);
-    /* border: none; */
-    background-color: white;
+    border: none;
+    background-color: var(--grey);
     padding: 5px 20px 5px 5px;
     outline: none;
     height: 3rem;
     z-index: 333;
     color: var(--dark-blue);
-    width: 88vw;
+    width: 100vw;
     max-width: 600px;
     margin-top: 1rem;
+    font-size: 1.2rem;
 }
 
 #search__input::placeholder{

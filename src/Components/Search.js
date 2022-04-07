@@ -40,7 +40,7 @@ const Search = () => {
                         type="text" 
                         id="search__input"
                         ref={searchValue} 
-                        placeholder="Search anything"
+                        placeholder="Search coffee"
                         onChange={searchCoffee}
                     />
                 </form>
