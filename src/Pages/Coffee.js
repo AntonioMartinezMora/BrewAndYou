@@ -73,7 +73,7 @@ function Coffee(){
                                     btnThree={btnThree}
                                 />
                                 </div>
-                                <h1 className="second__headline">
+                                <h1 className="headline__bg">
                                 Discover more:
                             </h1>
                             </div>

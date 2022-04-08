@@ -42,7 +42,7 @@ function BlogPage() {
                     )
                 }
             })}
-            <h1 className="second__headline">
+            <h1 className="headline__bg">
             Discover more: </h1>
             <Recommended/>
         </div>

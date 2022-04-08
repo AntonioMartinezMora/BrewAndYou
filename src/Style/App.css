@@ -47,6 +47,22 @@ h1{
     text-transform: capitalize;
 }
 
+.headline__bg{
+    font-size: 1.5rem;
+    color: var(--orange);
+    text-transform: capitalize;
+    margin: 0 1rem;
+    text-align: center;
+    background-color: var(--grey);
+    padding: 0.2rem 1rem;
+    margin-bottom: 1rem; 
+}
+
+.discover__text{
+    text-align: center;
+    max-width: 80%;
+}
+
 /* PAGE STYLE */
 .page__container{
     min-height: 92vh;

@@ -22,7 +22,10 @@ const HomeDiscover= () =>{
 
     return (
         <>
-        <h1>Discover coffees from around the world</h1>
+        <h1
+            className="headline__bg"
+        >Discover coffees from around the world</h1>
+        <p className="discover__text">Travel the globe without leaving your home and learn new ways how coffee is enjoyed.</p>
         <div className="list__page">
             {discoverElements.map((item)=>{
 
