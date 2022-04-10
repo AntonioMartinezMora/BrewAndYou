@@ -626,6 +626,31 @@ main{
     }
 }
 
+/* HOME DISCOVER component
+oooooooooooooooooooooooo */
+.home__discovery{
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 2rem;
+    width: 100vw;
+}
+
+.home__discovery .home__headline{
+    background-color: var(--orange);
+    color: var(--light-blue);
+    padding: 0.2rem 0.6rem;
+    font-weight: 400;
+    position: absolute;
+    top: -1rem;
+}
+
+.world__link img{
+    height: 50px
+}
 
 /* TREND & NEWS  ===== BLOG PAGE ====================
 ************************/

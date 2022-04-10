@@ -1,32 +1,29 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import '../Style/App.css'
-import data from '../Data.json'
 import { BiWorld } from "react-icons/bi";
+import { useGlobalContext } from '../context'
 
 const HomeDiscover= () =>{
+    const {discoverArr} = useGlobalContext()
+
     //scroll page after click link
     const handleClick = () =>{
         window.scrollTo(0, 0)
     }
 
-    // array for discover coffees
-    const discoverArr = [...new Set(data.map((item=>{
-        if(item.type === 'discover'){
-            return item
-        }
-    })))]
-
+    // sfuffle array
+    const shuffleArr = discoverArr.sort(()=> 0.5 - Math.random())
     // pick 3 items from shuffle array
-    const discoverElements = discoverArr.slice(0, 6)
+    const discoverElements = shuffleArr.slice(0, 6)
 
     return (
-        <>
-        <h1
-            className="headline__bg"
-        >Discover coffees from around the world</h1>
-        <p className="discover__text">Travel the globe without leaving your home and learn new ways how coffee is enjoyed.</p>
-        <div className="list__page">
+        <div className="home__discovery">
+            <h1
+            className="home__headline"
+            >Discover coffees from around the world</h1>
+            <p className="discover__text">Travel the globe without leaving your home and learn new ways how coffee is enjoyed.</p>
+            { <div className="home__page">
             {discoverElements.map((item)=>{
 
                     const {
@@ -39,12 +36,12 @@ const HomeDiscover= () =>{
                     } = item
                     return<Link
                         key={index}
-                        className='list__link'
+                        className='world__link'
                         to={`/coffee/${id}`}
                         onClick={handleClick}
                     >
                         <img src={image}/>
-                        <h6 className="country__list--link">
+                        <h6 className="world__list--link">
                             <BiWorld className="world__icon"/> {country}
                         </h6>
                         <h3>
@@ -56,8 +53,8 @@ const HomeDiscover= () =>{
                     </Link>
                 }
             )}
+            </div> }
         </div>
-        </>
 
     )
 }

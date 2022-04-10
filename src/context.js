@@ -13,12 +13,19 @@ const AppProvider = ({children}) =>{
     // Search Box
     useEffect(() => {
     const CoffeeResults = data.filter((value) =>{
-    if(value.title.toLowerCase().includes(searchTerm.toLowerCase())){
-        return value
-      }
-    })
-    setCoffeeList(CoffeeResults)
+        if(value.title.toLowerCase().includes(searchTerm.toLowerCase())){
+            return value
+        }
+        })
+        setCoffeeList(CoffeeResults)
     },[searchTerm])
+
+    // array for discover coffees home page
+    const discoverArr = [...new Set(data.map((item=>{
+        if(item.type === 'discover'){
+            return item
+        }
+    })))]
 
     return <AppContext.Provider value={{
         openMenu,
@@ -29,7 +36,9 @@ const AppProvider = ({children}) =>{
         setSearchTerm,
         coffeeList,
         showResults,
-        setShowResults 
+        setShowResults,
+        discoverArr,
+        data
       }}>
           {children}
     </AppContext.Provider>
