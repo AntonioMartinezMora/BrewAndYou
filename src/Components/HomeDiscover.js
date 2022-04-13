@@ -44,16 +44,24 @@ const HomeDiscover= () =>{
                         <h6 className="world__list--link">
                             <BiWorld className="world__icon"/> {country}
                         </h6>
-                        <h3>
-                            {title}
-                        </h3>
-                        <p>
-                            {short}
-                        </p>
+                        <div className="world__link--info">
+                            <h3>
+                                {title}
+                            </h3>
+                            <p>
+                                {short}
+                            </p>
+                        </div>
                     </Link>
                 }
             )}
             </div> }
+            <Link
+                to={"/discover"}
+                className="link__btn"
+            >
+                Discover More
+            </Link>
         </div>
 
     )
