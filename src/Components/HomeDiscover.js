@@ -23,6 +23,12 @@ const HomeDiscover= () =>{
             className="home__headline"
             >Discover coffees from around the world</h1>
             <p className="discover__text">Travel the globe without leaving your home and learn new ways how coffee is enjoyed.</p>
+            <Link
+                to={"/discover"}
+                className="link__btn"
+            >
+                Discover Coffees
+            </Link>
             { <div className="home__page">
             {discoverElements.map((item)=>{
 
@@ -56,12 +62,7 @@ const HomeDiscover= () =>{
                 }
             )}
             </div> }
-            <Link
-                to={"/discover"}
-                className="link__btn"
-            >
-                Discover More
-            </Link>
+
         </div>
 
     )

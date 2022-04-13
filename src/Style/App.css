@@ -629,7 +629,7 @@ main{
 /* HOME DISCOVER component
 oooooooooooooooooooooooo */
 .home__discovery{
-    background-color: var(--grey);
+    /* background-color: var(--grey); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -641,12 +641,15 @@ oooooooooooooooooooooooo */
 }
 
 .home__discovery .home__headline{
-    background-color: var(--orange);
-    color: var(--light-blue);
+    /* background-color: var(--orange); */
+    color: var(--dark-blue);
     padding: 0.2rem 0.6rem;
     font-weight: 400;
-    position: absolute;
-    top: -1rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    /* position: absolute;
+    top: -1rem; */
+    text-align: center;
 }
 
 .home__discovery .discover__text{
@@ -655,7 +658,7 @@ oooooooooooooooooooooooo */
     color: var(--dark);
     width: 100%;
     max-width: 400px;
-    margin: 0 1rem;
+    margin:1rem;
 }
 
 .home__discovery .home__page{
@@ -684,6 +687,8 @@ oooooooooooooooooooooooo */
     position: relative;
     border-radius: 5px;
     height: 130px;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
 }
 
 .world__link .world__list--link{
@@ -691,7 +696,7 @@ oooooooooooooooooooooooo */
     top: 0;
     left: 0;
     width: 100%;
-    background: linear-gradient(to right, var(--blue), var(--light-blue));
+    background: linear-gradient(to right, #eee, white);
     /* background: linear-gradient(to right, var(--orange), var(--light-orange)); */
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -728,20 +733,22 @@ oooooooooooooooooooooooo */
 }
 
 .home__discovery .link__btn{
-    background-color: var(--blue);
+    /* background-color: var(--blue);
+    color: white; */
     border: none;
     outline: none;
     padding: 0.5rem 1rem;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     border-radius: 5px;
     cursor: pointer;
+    background-color: var(--orange);
     color: white;
 }
 
-.home__discovery .link__btn:hover{
-    background-color: var(--dark-blue);
-    color: var(--light-blue);
-}
+/* .home__discovery .link__btn:hover{
+    background-color: var(--light-orange);
+    color: var(--blue);
+} */
 
 /* TREND & NEWS  ===== BLOG PAGE ====================
 ************************/
@@ -1296,7 +1303,7 @@ footer{
     width: 100%;
     background-color: var(--dark-blue);
     padding: 1rem;
-    /* margin-top: 1rem; */
+    margin-top: 1rem;
 }
 
 .footer__container{
