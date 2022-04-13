@@ -636,21 +636,51 @@ oooooooooooooooooooooooo */
     align-items: center;
     position: relative;
     padding-top: 2rem;
-    width: 100vw;
+    width: 100%;
+    max-width: 1200px;
     padding-bottom: 1rem;
+    border-top: solid 1px var(--light-orange);
+}
+
+@media(max-width:1200px){
+    .home__discovery{
+        padding-top: 4rem;
+        margin-top: 3rem;
+    }
 }
 
 .home__discovery .home__headline{
-    /* background-color: var(--orange); */
+    background-color: white;
     color: var(--dark-blue);
     padding: 0.2rem 0.6rem;
     font-weight: 400;
     font-size: 2rem;
     text-transform: uppercase;
-    /* position: absolute;
-    top: -1rem; */
+    position: absolute;
+    top: -1.4rem;
     text-align: center;
 }
+
+@media(max-width:800px){
+    .home__discovery .home__headline{
+        max-width: 80%;
+        font-size: 1.8rem;
+    }
+}
+
+/* @media(max-width:800px){
+    .home__discovery .home__headline{
+        background-color: white;
+        color: var(--dark-blue);
+        padding: 0.2rem 0.6rem;
+        font-weight: 400;
+        font-size: 2rem;
+        text-transform: uppercase;
+        position: absolute;
+        top: 0.5rem;
+        text-align: center;
+    }
+} */
 
 .home__discovery .discover__text{
     font-size: 1rem;
