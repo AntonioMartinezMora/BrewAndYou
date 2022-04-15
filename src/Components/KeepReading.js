@@ -1,12 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import data from '../Data.json'
 import '../Style/App.css'; 
 import {CgNotes} from "react-icons/cg";
 import { useGlobalContext } from '../context'
 
 const KeepReading = props =>{
-    const {handleClick} = useGlobalContext()
+    const {handleClick, data} = useGlobalContext()
 
     // get the type of blog(trend or news)
     const typeLink = props.type

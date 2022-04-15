@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import data from '../Data.json';
 import {Link} from 'react-router-dom'
-import SocialLinks from "../Components/SocialLinks"
 import '../Style/App.css'
 import { useGlobalContext } from '../context'
 import MenuContent from "../Components/MenuContent";

@@ -1,15 +1,12 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
-import data from '../Data.json'
 import '../Style/App.css'; 
 import { BiWorld } from "react-icons/bi";
+import { useGlobalContext } from '../context'
 
 function Categories(){
     let { category } = useParams()
-    //scroll page after click link
-    const handleClick = () =>{
-        window.scrollTo(0, 0)
-    }
+    const {data, handleClick} = useGlobalContext()
 
     return (
         <div className="list__page">

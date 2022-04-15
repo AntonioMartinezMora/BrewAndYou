@@ -1,15 +1,16 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import CoffeeInfo from "../Components/CoffeeInfo";
 import NeedsList from '../Components/NeedsList';
 import ShareSocial from '../Components/ShareSocial';
 import Recommended from "../Components/Recommeded";
-import data from '../Data.json'
 import '../Style/App.css'; 
 import { BiWorld } from "react-icons/bi";
+import { useGlobalContext } from '../context'
 
 function Coffee(){
     const {id} = useParams()
+    const {data} = useGlobalContext()
 
     return (
         <div className="coffee__container">

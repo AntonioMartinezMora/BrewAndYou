@@ -1,13 +1,10 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import data from '../Data.json'
 import '../Style/App.css'
+import { useGlobalContext } from '../context'
 
 const Trends = ( ) => {
-    //scroll page after click link
-    const handleClick = () =>{
-        window.scrollTo(0, 0)
-    }
+    const {data, handleClick} = useGlobalContext()
 
     return (
     <div className="list__page">

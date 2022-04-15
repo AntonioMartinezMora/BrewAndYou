@@ -1,10 +1,11 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import data from '../Data.json';
 import '../Style/App.css'
+import { useGlobalContext } from '../context'
 
 function NewsPage() {
     const {id} = useParams()
+    const {data} = useGlobalContext()
 
     return (
         <div className="blog__container">

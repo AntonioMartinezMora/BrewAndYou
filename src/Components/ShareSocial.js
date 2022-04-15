@@ -1,6 +1,5 @@
 import React from "react";
 import { AiOutlineTwitter, AiOutlineFileDone } from "react-icons/ai";
-import { MdOutlineMobileScreenShare } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import {CopyToClipboard} from 'react-copy-to-clipboard';

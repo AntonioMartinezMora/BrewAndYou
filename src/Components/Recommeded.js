@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import data from '../Data.json';
 import '../Style/App.css'; 
 import { BiWorld } from "react-icons/bi";
 import { useGlobalContext } from '../context'
 
 function Recommended(){
-    const {handleClick} = useGlobalContext()
+    const {handleClick, data} = useGlobalContext()
 
     // shuffle data
     const shuffleData = data.sort(() => 0.5 - Math.random());

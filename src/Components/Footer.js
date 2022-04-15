@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "react-router-dom"
-import { FaInstagramSquare,FaTwitterSquare  } from "react-icons/fa";
 import '../Style/App.css'; 
 import SocialLinks from "../Components/SocialLinks"
 import { useGlobalContext } from '../context'

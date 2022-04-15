@@ -1,12 +1,13 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import data from '../Data.json'
 import '../Style/App.css'; 
 import KeepReading from "../Components/KeepReading";
 import Recommended from "../Components/Recommeded";
+import { useGlobalContext } from '../context'
 
 function BlogPage() {
     const {id} = useParams()
+    const {data} = useGlobalContext()
 
     return (
         <div className="blog__container">
