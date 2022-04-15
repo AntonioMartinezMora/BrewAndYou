@@ -5,12 +5,7 @@ import { BiWorld } from "react-icons/bi";
 import { useGlobalContext } from '../context'
 
 const HomeDiscover= () =>{
-    const {discoverArr} = useGlobalContext()
-
-    //scroll page after click link
-    const handleClick = () =>{
-        window.scrollTo(0, 0)
-    }
+    const {discoverArr, handleClick} = useGlobalContext()
 
     // sfuffle array
     const shuffleArr = discoverArr.sort(()=> 0.5 - Math.random())

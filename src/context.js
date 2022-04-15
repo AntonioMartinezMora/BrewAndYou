@@ -20,6 +20,11 @@ const AppProvider = ({children}) =>{
         setCoffeeList(CoffeeResults)
     },[searchTerm])
 
+    //scroll page after click link
+    const handleClick = () =>{
+        window.scrollTo(0, 0)
+    }
+
     // array for discover coffees home page
     const discoverArr = [...new Set(data.map((item=>{
         if(item.type === 'discover'){
@@ -38,7 +43,8 @@ const AppProvider = ({children}) =>{
         showResults,
         setShowResults,
         discoverArr,
-        data
+        data,
+        handleClick
       }}>
           {children}
     </AppContext.Provider>

@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 import data from '../Data.json';
 import '../Style/App.css'; 
 import { BiWorld } from "react-icons/bi";
+import { useGlobalContext } from '../context'
 
 function Recommended(){
-    //scroll page after click link
-    const handleClick = () =>{
-        window.scrollTo(0, 0)
-    }
+    const {handleClick} = useGlobalContext()
+
     // shuffle data
     const shuffleData = data.sort(() => 0.5 - Math.random());
     // pick 3 items from shuffle data

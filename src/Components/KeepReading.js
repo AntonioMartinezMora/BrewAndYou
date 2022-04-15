@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom'
 import data from '../Data.json'
 import '../Style/App.css'; 
 import {CgNotes} from "react-icons/cg";
+import { useGlobalContext } from '../context'
 
 const KeepReading = props =>{
-    const handleClick = () =>{
-        window.scrollTo(0, 0)
-    }
+    const {handleClick} = useGlobalContext()
+
     // get the type of blog(trend or news)
     const typeLink = props.type
     // new array with correct type

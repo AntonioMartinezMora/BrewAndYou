@@ -3,13 +3,12 @@ import {Link} from "react-router-dom"
 import { FaInstagramSquare,FaTwitterSquare  } from "react-icons/fa";
 import '../Style/App.css'; 
 import SocialLinks from "../Components/SocialLinks"
+import { useGlobalContext } from '../context'
 
 const Footer = () => {
+    const {handleClick} = useGlobalContext()
+
     const year = new Date().getFullYear()
-    //scroll page after click link
-    const handleClick = () =>{
-        window.scrollTo(0, 0)
-    }
 
     return (
         <footer>
