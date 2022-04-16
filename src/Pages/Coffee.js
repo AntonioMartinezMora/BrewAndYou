@@ -42,7 +42,7 @@ function Coffee(){
                         >
                             <img src={image}/>
                             <div className="coffee__info">
-                                <h1 className="main__headline">{title}</h1>
+                                <h1 className="main__headline left">{title}</h1>
                                 <div className="small__info">
                                     <small className="country small__info">
                                     <BiWorld className="world__icon"/> 

@@ -28,7 +28,7 @@ function BlogPage() {
                             key={index}
                         >
                             <div className="blog__body">
-                                <h1 className="main__headline">{title}</h1>
+                                <h1 className="main__headline left">{title}</h1>
                                 <p className="short__info">{short}</p>
                                 <small className="blog__date">{date}</small>
                                 <img src={image} />

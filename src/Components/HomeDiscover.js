@@ -15,12 +15,13 @@ const HomeDiscover= () =>{
     return (
         <div className="home__discovery">
             <h1
-            className="home__headline"
+            className="main__headline"
             >Discover coffees from around the world</h1>
             <p className="discover__text">Travel the globe without leaving your home and learn new ways how coffee is enjoyed.</p>
             <Link
                 to={"/discover"}
                 className="link__btn"
+                onClick={handleClick}
             >
                 Discover Coffees
             </Link>

@@ -35,10 +35,19 @@ a{
 }
 
 .main__headline{
-    font-size: 1.8rem;
-    text-transform: capitalize;
-    margin-bottom: 1rem;
-    color: var(--dark);
+    background-color: white;
+    color: var(--dark-blue);
+    padding: 0.2rem 0.6rem;
+    font-weight: 400;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main__headline.left{
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0.3rem;
 }
 
 h1{
@@ -46,6 +55,7 @@ h1{
     color: var(--dark-blue);
     text-transform: capitalize;
 }
+
 
 .headline__bg{
     font-size: 1.5rem;
@@ -635,51 +645,21 @@ oooooooooooooooooooooooo */
     justify-content: center;
     align-items: center;
     position: relative;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     width: 100%;
     max-width: 1200px;
     padding-bottom: 1rem;
-    border-top: solid 1px var(--light-orange);
+    /* border-top: solid 1px var(--light-orange); */
 }
 
-@media(max-width:1200px){
-    .home__discovery{
-        padding-top: 4rem;
-        margin-top: 3rem;
-    }
-}
-
-.home__discovery .home__headline{
+/* .home__discovery .home__headline{
     background-color: white;
     color: var(--dark-blue);
     padding: 0.2rem 0.6rem;
     font-weight: 400;
     font-size: 2rem;
     text-transform: uppercase;
-    position: absolute;
-    top: -1.4rem;
     text-align: center;
-}
-
-@media(max-width:800px){
-    .home__discovery .home__headline{
-        max-width: 80%;
-        font-size: 1.8rem;
-    }
-}
-
-/* @media(max-width:800px){
-    .home__discovery .home__headline{
-        background-color: white;
-        color: var(--dark-blue);
-        padding: 0.2rem 0.6rem;
-        font-weight: 400;
-        font-size: 2rem;
-        text-transform: uppercase;
-        position: absolute;
-        top: 0.5rem;
-        text-align: center;
-    }
 } */
 
 .home__discovery .discover__text{
@@ -775,11 +755,6 @@ oooooooooooooooooooooooo */
     color: white;
 }
 
-/* .home__discovery .link__btn:hover{
-    background-color: var(--light-orange);
-    color: var(--blue);
-} */
-
 /* TREND & NEWS  ===== BLOG PAGE ====================
 ************************/
 .blog__container{
@@ -823,7 +798,6 @@ oooooooooooooooooooooooo */
 
 .blog__page .blog__sidebar{
     width: 35%;
-    /* border:2px solid rgba(238, 108, 77, 0.2);  */
     height: 500px;
 }
 
@@ -1280,7 +1254,6 @@ oooooooooooooooooooooooo */
 }
 
 .contact__illustration{
-    /* background-color: var(--light-blue); */
     display: flex;
     justify-content: center;
     align-items: center;

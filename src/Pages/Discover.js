@@ -9,7 +9,7 @@ const Discover = () => {
 
 return (
     <div className="discover">
-        <h1>Discover New Coffees</h1>
+        <h1 className="main__headline">Discover New Coffees</h1>
         <p className="discover__text">Travel the globe without leaving your home and learn new ways how coffee is enjoyed.</p>
         <div className="discover__container">
             {Discodata.map((discovery)=>{
