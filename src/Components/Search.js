@@ -11,6 +11,7 @@ const Search = () => {
     const searchValue = React.useRef('')
     const {searchTerm,setSearchTerm} = useGlobalContext()
     const {coffeeList} = useGlobalContext()
+    const {data} = useGlobalContext()
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -45,7 +46,7 @@ const Search = () => {
                 <div 
                     className={showResults ? 'search__results' : "search__results close"}
                 >
-                    {coffeeList.slice(0, 6).map((item)=> {
+                    {data.slice(0, 6).map((item)=> {
                         const {
                             id,
                             type,

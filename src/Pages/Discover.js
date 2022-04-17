@@ -20,10 +20,8 @@ return (
                     img,
                     category
                 } = discovery
-                return <Link
-                    to={`/discovery/${category}`}
+                return <div
                     key={index}
-                    onClick={handleClick}
                 >
                     <div 
                         className="discovery__link"
@@ -31,8 +29,15 @@ return (
                     >
                         <h3>{headline}</h3>
                         <p>{quote}</p>
+                        <Link
+                            to={`/discovery/${category}`}
+                            onClick={handleClick}
+                            className="discovery__link--btn"
+                        >
+                            explore
+                        </Link>
                     </div>
-                </Link>
+                </div>
             })}
         </div>
     </div>
