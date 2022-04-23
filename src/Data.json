@@ -20,6 +20,7 @@
     {
         "type": "discover",
         "id": "sample-coffe-2",
+        "index": 2,
         "image": "https://images.pexels.com/photos/982612/pexels-photo-982612.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         "category": "cold",
         "country": "italy",

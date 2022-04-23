@@ -4,13 +4,8 @@ import '../Style/App.css'
 import { BiWorld } from "react-icons/bi";
 import { useGlobalContext } from '../context'
 
-const HomeDiscover= () =>{
-    const {discoverArr, handleClick} = useGlobalContext()
-
-    // sfuffle array
-    const shuffleArr = discoverArr.sort(()=> 0.5 - Math.random())
-    // pick 3 items from shuffle array
-    const discoverElements = shuffleArr.slice(0, 6)
+const HomeDiscover= props =>{
+    const {handleClick} = useGlobalContext()
 
     return (
         <div className="home__discovery">
@@ -26,8 +21,8 @@ const HomeDiscover= () =>{
                 Discover Coffees
             </Link>
             { <div className="home__page">
-            {discoverElements.map((item)=>{
-
+            {props.homeData.map((item)=>{
+                if(item.hero === 'discover'){
                     const {
                         id,
                         index,
@@ -55,6 +50,7 @@ const HomeDiscover= () =>{
                             </p>
                         </div>
                     </Link>
+                }         
                 }
             )}
             </div> }

@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import '../Style/App.css'
-import HeroData from '../HeroData.json'
 
-const Hero = () => {
+const Hero = props => {
     return (
         <div className="hero">
             <div className="hero__main">
-                {HeroData.map((item)=>{
+                {props.homeData.map((item)=>{
                     if(item.hero === 'main'){
                         const {
                             id,
@@ -35,7 +34,7 @@ const Hero = () => {
                 })}
             </div>
             <div className="hero__side">
-                {HeroData.map((item)=>{
+                {props.homeData.map((item)=>{
                     if(item.hero === 'side'){
                         const {
                             id,

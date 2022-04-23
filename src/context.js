@@ -25,12 +25,6 @@ const AppProvider = ({children}) =>{
         window.scrollTo(0, 0)
     }
 
-    // array for discover coffees home page
-    const discoverArr = [...new Set(data.map((item=>{
-        if(item.type === 'discover'){
-            return item
-        }
-    })))]
 
     return <AppContext.Provider value={{
         openMenu,
@@ -42,7 +36,6 @@ const AppProvider = ({children}) =>{
         coffeeList,
         showResults,
         setShowResults,
-        discoverArr,
         data,
         handleClick
       }}>
