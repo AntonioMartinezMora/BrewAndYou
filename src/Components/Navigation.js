@@ -26,6 +26,11 @@ const Navigation = () => {
                     onClick={() => {
                         setOpenSearch(!openSearch)
                         setOpenMenu(false)
+                        if(!openSearch){
+                            document.body.classList.add('modal__open')
+                        } else {
+                            document.body.classList.remove('modal__open')
+                        }
                     }}
                 >
                     <AiOutlineClose 
@@ -47,6 +52,11 @@ const Navigation = () => {
                     onClick={() => {
                         setOpenMenu(!openMenu)
                         setOpenSearch(false)
+                        if(!openMenu){
+                            document.body.classList.add('modal__open')
+                        } else {
+                            document.body.classList.remove('modal__open')
+                        }
                     }}
                     >
                     <AiOutlineMenu 

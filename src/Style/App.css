@@ -22,7 +22,10 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--dark);
-    /* overflow: hidden; */
+}
+
+body.modal__open{
+    overflow: hidden;
 }
 
 a{
