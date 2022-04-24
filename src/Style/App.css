@@ -22,6 +22,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--dark);
+    /* overflow: hidden; */
 }
 
 a{
@@ -902,16 +903,15 @@ oooooooooooooooooooooooo */
 
 .discover__container{
     width: 100%;
-    /* max-width: 1200px; */
+    min-height: 72vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .discovery__link{
-    height: 300px;
-    /* margin: 2rem; */
-    /* border-top-left-radius: 100px;
-    border-bottom-right-radius: 200px; */
+    /* height: 300px; */
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -930,8 +930,6 @@ oooooooooooooooooooooooo */
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.3);
-    /* border-top-left-radius: 100px;
-    border-bottom-right-radius: 200px; */
 }
 
 .discovery__link h3{
@@ -970,6 +968,11 @@ oooooooooooooooooooooooo */
         margin: auto;
         grid-template-columns: 1fr;
     }
+
+    .discovery__link{
+        height: 300px;
+    }
+
 }
 
 /* COFFEE PAGE  -------------------------------

@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import '../Style/App.css'
+import { useGlobalContext } from '../context'
 
 const Hero = props => {
+    const {handleClick} = useGlobalContext()
+
     return (
         <div className="hero">
             <div className="hero__main">
@@ -21,6 +24,7 @@ const Hero = props => {
                             to={`/${type}/${id}`}
                             key={index}
                             className="hero__main--link"
+                            onClick={handleClick}
                         >
                             <img src={image} />
                             <h6
@@ -49,6 +53,7 @@ const Hero = props => {
                             to={`/${type}/${id}`}
                             key={index}
                             className="hero__side--link"
+                            onClick={handleClick}
                         >
                             <div 
                                 className="img__cont"
