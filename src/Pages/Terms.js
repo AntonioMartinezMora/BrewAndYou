@@ -20,7 +20,7 @@ const Terms = () => {
                 Links
             </h1>
             <p className="page__text">
-            Brewedandyou.co has reviewed all the links in the site, however brewedandyou.co shall not be responsible if any of the links do not work or have been removed.
+            Brewedandyou.co has reviewed all the links in the site, however brewedandyou.co shall not be responsible if any of the links do not work or have been removed
             </p>
             <h1 className="page__headline">
                 Disclaimers
