@@ -15,6 +15,7 @@ const Navigation = () => {
     const closeBg = () => {
         setOpenMenu(false)
         setOpenSearch(false)
+        document.body.classList.remove('modal__open')
     }
 
     return (
@@ -73,7 +74,9 @@ const Navigation = () => {
             {/* modal background */}
             <div 
                 className={openMenu || openSearch ? "modal__bg" : "modal__bg hide"}
-                onClick={closeBg}
+                onClick={
+                    closeBg
+                }
             ></div>
 
         </div>

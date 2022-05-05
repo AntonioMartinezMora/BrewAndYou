@@ -7,6 +7,11 @@ import { FaInstagramSquare,FaTwitterSquare  } from "react-icons/fa";
 const MenuContent = () =>{
     const {openMenu, setOpenMenu} = useGlobalContext()
 
+    const closeNav = () => {
+        setOpenMenu(false)
+        document.body.classList.remove('modal__open')
+    }
+
 
     return (
         <div 
@@ -15,7 +20,7 @@ const MenuContent = () =>{
             <Link
                 to={"/news"}
                 className="menu__link"
-                onClick={() => setOpenMenu(!openMenu)}
+                onClick={closeNav}
             >
                 <BiNews  
                 className='menu__link--icon'/>
@@ -24,7 +29,7 @@ const MenuContent = () =>{
             <Link
                 to={"/trends"}
                 className="menu__link"
-                onClick={() => setOpenMenu(!openMenu)}
+                onClick={closeNav}
             >
                 <BiCoffeeTogo
                 className='menu__link--icon' />
@@ -33,7 +38,7 @@ const MenuContent = () =>{
             <Link
                 to={"/discover"}
                 className="menu__link"
-                onClick={() => setOpenMenu(!openMenu)}
+                onClick={closeNav}
             >
                 <BiWorld
                 className='menu__link--icon' />
@@ -43,7 +48,7 @@ const MenuContent = () =>{
             <Link
                 to={"/contact"}
                 className="menu__link"
-                onClick={() => setOpenMenu(!openMenu)}
+                onClick={closeNav}
             >
                 <BiEnvelope
                 className='menu__link--icon' />
@@ -55,7 +60,7 @@ const MenuContent = () =>{
                     href={"https://instagram.com/brewedandyou"}
                     target="_blank"
                     className="icon__social"
-                    onClick={() => setOpenMenu(!openMenu)}
+                    onClick={closeNav}
                 >
                 <FaInstagramSquare/>
                 </a>
@@ -63,7 +68,7 @@ const MenuContent = () =>{
                     href={"https://twitter.com/BrewedAndYou"}
                     target="_blank"
                     className="icon__social"
-                    onClick={() => setOpenMenu(!openMenu)}
+                    onClick={closeNav}
                 >
                 <FaTwitterSquare />
                 </a>

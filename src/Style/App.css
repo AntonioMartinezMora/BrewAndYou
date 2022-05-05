@@ -121,13 +121,13 @@ h1{
 
 @media(max-width:1200px){
     .list__page{
-        padding: 5rem 1rem 0 1rem;
+        padding: 5rem 1rem 2rem 1rem;
     }
 }
 
 @media(max-width:800px){
     .list__page{
-        padding: 5rem 1rem 0 1rem;
+        padding: 5rem 1rem 2rem 1rem;
         max-width: 1200px;
         margin: auto;
         display: grid;
@@ -145,7 +145,7 @@ h1{
 
 @media(max-width:500px){
     .list__page{
-        padding: 5rem 1rem 0 1rem;
+        padding: 5rem 1rem 2rem 1rem;
         max-width: 1200px;
         margin: auto;
         display: grid;
