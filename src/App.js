@@ -15,6 +15,7 @@ import Discover from './Pages/Discover';
 import Trends from './Pages/Trends';
 import News from './Pages/News';
 import BlogPage from './Pages/BlogPage';
+import Admin from './Pages/Admin';
 
 function App() {
   return (
@@ -68,6 +69,10 @@ function App() {
         <Route 
           path="/contact"
           element={<Contact />}
+        />
+        <Route 
+          path="/user/admin"
+          element={<Admin />}
         />
         <Route 
           path="*"
